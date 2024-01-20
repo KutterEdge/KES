@@ -57,8 +57,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ff0000;
-  color: #000000;
+  background: #0000ff;
+  color: #0000ff;
 }
 
 .back-to-top.active {
@@ -401,14 +401,14 @@ h6 {
   padding: 14px 30px;
   border-radius: 3px;
   margin: 10px;
-  color: #000;
-  background: #00ff00;
+  color: #ff0000;
+  background: #000;
 }
 
 #hero .btn-get-started:hover {
   transition: 0.5s;
   background: #ff0000;
-  color: #fff;
+  color: #0000ff;
 }
 
 @media (min-width: 1024px) {
