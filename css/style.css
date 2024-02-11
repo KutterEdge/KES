@@ -146,8 +146,9 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-top: 10px;
-    background: url("../img/wp1991996.jpg") center center no-repeat;
+    background: url("../img/Kutter.png") center center no-repeat;
     background-size: cover;
+	background-color: black
 }
 
 .hero-header .breadcrumb-item+.breadcrumb-item::before {
@@ -466,7 +467,7 @@ h6,
 
 /*** Footer ***/
 .footer {
-    background: url("../img/footer.png") center center no-repeat;
+    background: url("../img/1New Logo.png") left no-repeat;
     background-size: contain;
 }
 
