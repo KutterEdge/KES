@@ -1,253 +1,802 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html dir="ltr" lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Kutter Edge Studios</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+<meta charset="utf-8">
+<title>Kutter Edge Studios</title>
 
-    <!-- Favicon -->
-    <link href="img/favicon.png" alt="logo" rel="icon">
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="assets/style-26.css">
+<link rel="preload" href="https://emergency-luedenscheid.de/font/families/Roboto/Roboto%5Bwdth%2Cwght%5D.woff2?v=1681383665" as="font" crossorigin>
+<link rel="preload" href="https://emergency-luedenscheid.de/font/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin type="font/woff2">
+<script>
+	var SID_ARG_2ND	= '';
+	var WCF_PATH = 'https://emergency-luedenscheid.de/';
+	var WSC_API_URL = 'https://emergency-luedenscheid.de/';
+	
+	var LANGUAGE_ID = 2;
+	var LANGUAGE_USE_INFORMAL_VARIANT = true;
+	var TIME_NOW = 1708183143;
+	var LAST_UPDATE_TIME = 1706173276;
+	var URL_LEGACY_MODE = false;
+	var ENABLE_DEBUG_MODE = false;
+	var ENABLE_PRODUCTION_DEBUG_MODE = false;
+	var ENABLE_DEVELOPER_TOOLS = false;
+	var WSC_API_VERSION = 2019;
+	var PAGE_TITLE = 'Emergency Luedenscheid';
+	
+	var REACTION_TYPES = {"2":{"title":"Thanks","renderedIcon":"<img\n\tsrc=\"https:\/\/emergency-luedenscheid.de\/images\/reaction\/thanks.svg\"\n\talt=\"Thanks\"\n\tclass=\"reactionType\"\n\tdata-reaction-type-id=\"2\"\n>","iconPath":"https:\/\/emergency-luedenscheid.de\/images\/reaction\/thanks.svg","showOrder":1,"reactionTypeID":2,"isAssignable":1},"1":{"title":"Like","renderedIcon":"<img\n\tsrc=\"https:\/\/emergency-luedenscheid.de\/images\/reaction\/1-Emoji_u1f64f.svg.png\"\n\talt=\"Like\"\n\tclass=\"reactionType\"\n\tdata-reaction-type-id=\"1\"\n>","iconPath":"https:\/\/emergency-luedenscheid.de\/images\/reaction\/1-Emoji_u1f64f.svg.png","showOrder":2,"reactionTypeID":1,"isAssignable":1},"3":{"title":"Haha","renderedIcon":"<img\n\tsrc=\"https:\/\/emergency-luedenscheid.de\/images\/reaction\/haha.svg\"\n\talt=\"Haha\"\n\tclass=\"reactionType\"\n\tdata-reaction-type-id=\"3\"\n>","iconPath":"https:\/\/emergency-luedenscheid.de\/images\/reaction\/haha.svg","showOrder":3,"reactionTypeID":3,"isAssignable":1},"4":{"title":"Confused","renderedIcon":"<img\n\tsrc=\"https:\/\/emergency-luedenscheid.de\/images\/reaction\/confused.svg\"\n\talt=\"Confused\"\n\tclass=\"reactionType\"\n\tdata-reaction-type-id=\"4\"\n>","iconPath":"https:\/\/emergency-luedenscheid.de\/images\/reaction\/confused.svg","showOrder":4,"reactionTypeID":4,"isAssignable":1},"6":{"title":"Ver\u00e4rgert","renderedIcon":"<img\n\tsrc=\"https:\/\/emergency-luedenscheid.de\/images\/reaction\/6-ver\u00e4rgert.svg\"\n\talt=\"Ver\u00e4rgert\"\n\tclass=\"reactionType\"\n\tdata-reaction-type-id=\"6\"\n>","iconPath":"https:\/\/emergency-luedenscheid.de\/images\/reaction\/6-ver\u00e4rgert.svg","showOrder":5,"reactionTypeID":6,"isAssignable":1}};
+	
+	</script> 
+<script src="https://emergency-luedenscheid.de/js/WoltLabSuite.Core.min.js?v=1706173276"></script> 
+<script>
+requirejs.config({
+	baseUrl: 'https://emergency-luedenscheid.de/js',
+	urlArgs: 't=1706173276'
+	
+});
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
-        rel="stylesheet">
+window.addEventListener('pageshow', function(event) {
+	if (event.persisted) {
+		window.location.reload();
+	}
+});
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+</script> 
+<script src="https://emergency-luedenscheid.de/js/WoltLabSuite.Forum.min.js?v=1706173276"></script>
+<noscript>
+<style>
+.jsOnly {
+    display: none !important;
+}
+.noJsOnly {
+    display: block !important;
+}
+</style>
+</noscript>
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "WebSite",
+"url": "https:\/\/emergency-luedenscheid.de\/",
+"potentialAction": {
+"@type": "SearchAction",
+"target": "https:\/\/emergency-luedenscheid.de\/search\/?q={search_term_string}",
+"query-input": "required name=search_term_string"
+}
+}
+</script> 
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="https://emergency-luedenscheid.de/images/style-26/apple-touch-icon.png" />
+<link rel="manifest" href="https://emergency-luedenscheid.de/images/style-26/manifest.json" />
+<link rel="shortcut icon" href="https://emergency-luedenscheid.de/images/style-26/favicon.ico" />
+<meta name="msapplication-config" content="https://emergency-luedenscheid.de/images/style-26/browserconfig.xml" />
+<meta name="theme-color" content="#c60000" />
+<link rel="canonical" href="https://emergency-luedenscheid.de/">
+<style>
+.modificationLogEntryHide {
+    display: none !important;
+}
+</style>
 </head>
 
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only"><img src="img/loading.gif" alt=""></span>
+<body id="tpl_wcf_cms"
+	itemscope itemtype="http://schema.org/WebPage" itemid="https://emergency-luedenscheid.de/"	data-template="cms" data-application="wcf" data-page-id="84" data-page-identifier="com.woltlab.wcf.generic84"		class=" pageHeaderSticky avatarsSquare">
+<span id="top"></span>
+<div id="pageContainer" class="pageContainer pagegeneric84 cmsPage badgeSquare paginationSquare userListInfo userListStats trophiesSquare">
+<div id="pageHeaderContainer" class="pageHeaderContainer">
+  <header id="pageHeader" class="pageHeader">
+  <div id="pageHeaderPanel" class="pageHeaderPanel mainMenuSubIndicator">
+    <div class="layoutBoundary">
+      <div id="pageHeaderLogo" class="pageHeaderLogo"> <a href="https://emergency-luedenscheid.de/" aria-label="Emergency Luedenscheid"> <img src="assets/img/Nav logo.jpg" alt="" class="pageHeaderLogoLarge" height="54" width="200" loading="eager" /> <img src="https://emergency-luedenscheid.de/images/style-26/pageLogoMobile-90beee9f.png" alt="" class="pageHeaderLogoSmall" height="54" width="270" loading="eager" /> </a> </div>
+      <div class="box boxMainMenu mainMenu" data-box-identifier="com.woltlab.wcf.MainMenu">
+        <div class="boxContent boxContentMenu">
+          <nav aria-label="Main Menu">
+            <ol class="boxMenu">
+              <li class="active" data-identifier="420b698a2afe14d465503542bb0b4b8fc7a6e375"> <a href="https://emergency-luedenscheid.de/" class="boxMenuLink" aria-current="page"> <span class="boxMenuLinkTitle">Home</span> </a> </li>
+              <li class="" data-identifier="com.woltlab.wcf.ArticleList"> <a href="https://www.twitter.com/kutteredge" class="boxMenuLink"> <span class="boxMenuLinkTitle">News</span> </a> </li>
+                <ol class="boxMenuDepth1">
+                  <li class="" data-identifier="com.viecode.lexicon.UnreadEntryList"> <a href="https://emergency-luedenscheid.de/wiki/unread-entry-list/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Unread Entires</span> <span class="boxMenuLinkOutstandingItems badge badgeUpdate" aria-label="(1 New Item)">1</span> </a> </li>
+                </ol>
+              <li class="" data-identifier="com.woltlab.wbb.BoardList"> <a href="https://emergency-luedenscheid.de/community/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Forum</span> <span class="boxMenuLinkOutstandingItems badge badgeUpdate" aria-label="(8 News Items)">8</span> </a> </li>
+              <li class="" data-identifier="de.darksilent.emlst.menu.leitstelle"> <a href="https://emergency-luedenscheid.de/leitstelle/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Leitstelle</span> </a> </li>
+              <li class="" data-identifier="com.viecode.filebase.Filebase"> <a href="https://emergency-luedenscheid.de/filebase/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Downloads</span> </a> </li>
+              <li class="" data-identifier="de.yourecom.workplace.taskList"> <a href="https://emergency-luedenscheid.de/tasks/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Work Place</span> </a> </li>
+              <li class="" data-identifier="wcf.header.menu.donation"> <a href="https://emergency-luedenscheid.de/donations/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Donations</span> </a> </li>
+            </ol>
+          </nav>
         </div>
-    </div>
-    <!-- Spinner End -->
-
-    <!-- Hero Start -->
-    <div class="container-fluid pt-5 mb-5 hero-header">
-        <div class="container pt-5">
-            <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 mb-4 animated slideInLeft">Kutter Edge Studios</h1>
-                    <p class="text-white mb-4 animated slideInRight">working toward the best community on the World Wide Web</p>
-                </div>
-                <div class="col-lg-6 align-self-end text-center text-lg-end">
-                    <img class="img-fluid" src="img/me.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Hero End -->
-
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="about-img">
-                        <img class="img-fluid" src="img/unnamed.png" alt="">
+      </div>
+      <div class="box mainMenu megaMenu" data-static-box-identifier="com.woltlab.wcf.MainMenu">
+        <div class="boxContent">
+          <nav aria-label="Hauptmenü">
+            <ol class="boxMenu">
+              <li id="megaMenuItem22" class="menuItem megaMenuItem active"
+				    data-identifier="de.cwalz.megaMenu.menu.type.dropdown" > <a href="https://emergency-luedenscheid.de/"
+						   class="boxMenuLink" aria-current="page"> <span class="icon16 icon fa-desktop"></span> <span class="boxMenuLinkTitle">Home</span> </a> </li>
+              <li id="megaMenuItem2" class="menuItem megaMenuItem"
+				    data-identifier="de.cwalz.megaMenu.menu.type.dropdown" > <a href="https://www.twitter.com/kutteredge"
+						   class="boxMenuLink"> <span class="icon16 icon fa-bullhorn"></span> <span class="boxMenuLinkTitle">News</span> </a> </li>
+              
+                <ol class="menuItem megaMenuItem boxMenuDepth boxMegaMenuDepth boxMegaMenuDepth1 boxMenuDepth1" data-depth="1">
+                  <li class="menuItem megaMenuItem"
+                                data-identifier="de.cwalz.megaMenu.menu.type.custom">
+                    <div>
+                      <div class="layoutBoundary">
+                        <div class="row">
+                          <div class="col col-1-3">
+                            <ol>
+                              <li class="headline"> <a> <span>Modifikation</span> </a> </li>
+                              <li> <a href="/wiki/index.php?entry/39-alarmierungsmenü/"> <span>Alarmierungsmenü</span> </a> </li>
+                              <li> <a href="/wiki/index.php?entry/13-notarztbegleitung-aufheben/"> <span>Notarztbegleitung aufheben</span> </a> </li>
+                              <li> <a href="/wiki/entry/93-modulares-event-system-erklaerung/"> <span>Erklärung: Modulares Event System</span> </a> </li>
+                              <li> <a href="/wiki/entry/107-einsatz-gasaustritt/"> <span>Einsatz: Gasaustritt</span> </a> </li>
+                            </ol>
+                          </div>
+                          <div class="col col-1-3">
+                            <ol>
+                              <li class="headline"> <a> <span>Leitstelle</span> </a> </li>
+                              <li> <a href="/wiki/index.php?entry/38-leitstellen-spiel-starten/"> <span>Leitstellenspiel starten</span> </a> </li>
+                              <li> <a href="/wiki/index.php?entry/18-erstalarmierung-eines-einsatzes/"> <span>Erstalarmierung eines Einsatzes</span> </a> </li>
+                              <li> <a href="/wiki/index.php?entry/29-debug-entsperren/"> <span>Debug: Einsatz entsperren</span> </a> </li>
+                            </ol>
+                          </div>
+                          <div class="col col-1-3">
+                            <ol>
+                              <li class="headline"> <a> <span>Der Landkreis Lüdenscheid</span> </a> </li>
+                              <li> <a href="https://emergency-luedenscheid.de/index.php?landkreis-de/"> <span>Stadt Lüdenscheid</span> </a> </li>
+                              <li> <span>Lüdenscheid: </span>
+                                <div class="right"> <a href="https://map.emergency-luedenscheid.de/?map=luedenscheid" target="_blank"> <span>Online Map</span> | </a> <a href="/wiki/entry/100-fahrzeuguebersicht-luedenscheid/" target="_blank"> <span>Fahrzeugübersicht</span> </a> </div>
+                              </li>
+                              <li> <span>Linzing: </span>
+                                <div class="right"> <a href="https://map.emergency-luedenscheid.de/?map=linzing" target="_blank"> <span>Online Map</span> | </a> <a href="/wiki/entry/99-fahrzeuguebersicht-linzing/" target="_blank"> <span>Fahrzeugübersicht</span> </a> </div>
+                              </li>
+                              <li> <span>Brandstedt: </span>
+                                <div class="right"> <a href="https://map.emergency-luedenscheid.de/?map=brandstedt" target="_blank"> <span>Online Map</span> | </a> <a href="/wiki/entry/101-fahrzeuguebersicht-brandstedt/" target="_blank"> <span>Fahrzeugübersicht</span> </a> </div>
+                              </li>
+                              <br>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h2 class="mb-4">My name is Keith, but most people online call me Kutter. I am a dad first so getting to game is a fun hobby for me. I try to livestream if I can but love to just get on the PC and game with friends.</h2>
-                    <p class="mb-4">Like all people on the internet, I started out watching and enjoying videos of people playing video games. So I saved for almost a year and bought a computer that could handle almost any game on the market. In 2008 I started buying parts and got my first PC build together, after that it was "Game On" I like playing a lot of different games and I'm not picky one over the other. I now have started working in graphic designs and dabbling in a little coding here and there.</p><p>Below are the things that I work on:</p>
-					
-                    <div class="row g-3">
-                        <div class="col-sm-6">
-							<a href="https://www.twitch.tv/kutteredgestudios" target="_blank"><i class="mb-3"></i><i class="fab fa-twitch text-primary me-2"></i>Twitch Stream</a><br>
-                            <a href="https://www.kick.com/kutteredgestudios" target="_blank"><i class="mb-0"></i><i class="fab fa-kickstarter-k text-primary me-2"></i>Kick Stream</a>
+                  </li>
+                </ol>
+              
+                <ol class="menuItem megaMenuItem boxMenuDepth boxMegaMenuDepth boxMegaMenuDepth1 boxMenuDepth1" data-depth="1">
+                  <li class="menuItem megaMenuItem"
+                                data-identifier="de.cwalz.megaMenu.menu.type.custom">
+                    <div>
+                      <div class="layoutBoundary">
+                        <div class="row">
+                          <div class="col col-1-3">
+                            <ol>
+                              <li class="headline"> <a> <span>Community</span> </a> </li>
+                              <li> <a href="/dashboard"> <i class="icon fa-newspaper-o"></i> <span>Dashboard</span> </a> </li>
+                              <li> <a href="/community"> <i class="icon fa-comment-dots"></i> <span>Forum</span> <small>Here you can exchange information with other members, ask questions, report errors and much more.</small> </a> </li>
+                              <li> <a href="/filebase"> <i class="icon fa-download"></i> <span>Downloads</span> <small>In addition to the launcher, you can also find other great content to download here.</small> </a> </li>
+                            </ol>
+                          </div>
+                          <div class="col col-1-3">
+                            <ol>
+                              <li class="headline"> <a> <span>Members</span> </a> </li>
+                              <li> <a href="/members-list"> <i class="icon fa-users"></i> <span>Members</span> </a> </li>
+                              <li> <a href="/user-search"> <i class="icon fa-cubes"></i> <span>Search Members</span> </a> </li>
+                              <li> <a href="/recent-activity-list"> <i class="icon fa-feed"></i> <span>Recent Activities</span> </a> </li>
+                              <li> <a href="/users-online-list"> <i class="icon fa-user-plus"></i> <span>Users Online</span> </a> </li>
+                            </ol>
+                          </div>
+                          <div class="col col-1-3">
+                            <ol>
+                              <li class="headline"> <a> <span>Info</span> </a> </li>
+                              <li> <a href="/team"> <i class="icon fa-code"></i> <span>The Luedenscheid team</span> <small>The hardworking hands behind the Luedenscheid modification.</small> </a> </li>
+                              <li> <a href="/bewerbung"> <i class="icon fa-handshake-o"></i> <span>We want you!</span> <small>Are you interested in supporting our team? We are regularly looking for new helping hands!</small> </a> </li>
+                            </ol>
+                          </div>
                         </div>
-                        <div class="col-sm-6">
-							<a href="https://soundcloud.com/kutteredgestudios" target="_blank"><i class="mb-3"></i><i class="fab fa-soundcloud text-primary me-2"></i>Music Production</a><br>
-                            <a href="https://discord.com/invite/NREFTRSPcZ" target="_blank"><i class="mb-0"></i><i class="fab fa-discord text-primary me-2"></i>Discord</a>
-                        </div>
+                      </div>
                     </div>
-                </div>
-            </div>
+                  </li>
+                </ol><li id="megaMenuItem49" class="menuItem megaMenuItem"
+				    data-identifier="de.cwalz.megaMenu.menu.type.dropdown" > <a href="https://www.patreon.com/join/Kutteredgestudios"
+						   class="boxMenuLink"> <span class="icon16 icon fa-dollar-sign"></span> <span class="boxMenuLinkTitle">Donate</span> </a> </li>
+            </ol>
+          </nav>
         </div>
-    </div>
-    <!-- About End -->
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="mb-4">Meet My Collaborating Team Members</h1>
-                    <p class="mb-4">This group of people are great individules that I love to game with. check out there links to there live streams. You will not regret it.</p>
-                </div>
-                <div class="col-lg-7">
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="row g-4">
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
-                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
-                                        <img class="img-fluid rounded-circle p-4" src="img/team/watson.jpg" alt="">
-                                        <h5 class="mb-0">Lone_Viking</h5>
-                                        <small>Collaborator</small>
-                                        <div class="d-flex justify-content-center mt-3">
-                                            <a class="btn btn-square btn-primary m-1" href="https://kick.com/loneviking" target="_blank"><i class="fab fa-kickstarter-k"></i></a>
-											<a class="btn btn-square btn-primary m-1" href="https://www.twitch.tv/loneviking" target="_blank"><i class="fab fa-twitch"></i></a>
-										</div>
-									</div>
-                                </div>
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
-                                        <img class="img-fluid rounded-circle p-4" src="img/team/Cigaming logo.png" alt="">
-                                        <h5 class="mb-0">CiGaming</h5>
-                                        <small>Collaborator</small>
-                                        <div class="d-flex justify-content-center mt-3">
-                                            <a class="btn btn-square btn-primary m-1" href="https://www.twitch.tv/cigaming" target="_blank"><i class="fab fa-twitch"></i></a>
-										   <a class="btn btn-square btn-primary m-1" href="https://www.kick.com/cigaming" target="_blank"><i class="fab fa-kickstarter-k"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 pt-md-4">
-                            <div class="row g-4">
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
-                                        <img class="img-fluid rounded-circle p-4" src="img/team/Stryder.jpg" alt="">
-                                        <h5 class="mb-0">Stryder721</h5>
-                                        <small>Collaborator</small>
-                                        <div class="d-flex justify-content-center mt-3">
-                                            <a class="btn btn-square btn-primary m-1" href="https://kick.com/stryder721" target="_blank"><i class="fab fa-kickstarter-k"></i></a>
-										    <a class="btn btn-square btn-primary m-1" href="https://www.twitch.tv/p11studios" target="_blank"><i class="fab fa-twitch"></i></a></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
-                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
-                                        <img class="img-fluid rounded-circle p-4" src="img/team/priest.png" alt="">
-                                        <h5 class="mb-0">Priest0802</h5>
-                                        <small>Collaborator</small>
-                                        <div class="d-flex justify-content-center mt-3">
-                                            <a class="btn btn-square btn-primary m-1" href="https://www.twitch.tv/priest0802" target="_blank"><i class="fab fa-twitch"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <a href="#" id="pageHeaderSearchMobile" class="pageHeaderSearchMobile" role="button" tabindex="0" aria-expanded="false" aria-label="Search"> <span class="icon icon32 fa-search" aria-hidden="true"></span> </a>
+      <div id="pageHeaderSearch" class="pageHeaderSearch">
+        <form method="post" action="https://emergency-luedenscheid.de/search/">
+          <div id="pageHeaderSearchInputContainer" class="pageHeaderSearchInputContainer">
+            <div class="pageHeaderSearchType dropdown"> <a href="#" class="button dropdownToggle" id="pageHeaderSearchTypeSelect"><span class="pageHeaderSearchTypeLabel">Everywhere</span></a>
+              <ul class="dropdownMenu">
+                <li><a href="#" data-extended-link="https://emergency-luedenscheid.de/search/?extended=1" data-object-type="everywhere">Everywhere</a></li>
+                <li class="dropdownDivider"></li>
+                <li><a href="#" data-extended-link="https://emergency-luedenscheid.de/search/?type=com.woltlab.wcf.article&amp;extended=1" data-object-type="com.woltlab.wcf.article">Articles</a></li>
+                <li><a href="#" data-extended-link="https://emergency-luedenscheid.de/search/?type=com.woltlab.wcf.page&amp;extended=1" data-object-type="com.woltlab.wcf.page">Pages</a></li>
+                <li><a href="#" data-extended-link="https://emergency-luedenscheid.de/search/?type=com.woltlab.wcf.conversation.message&amp;extended=1" data-object-type="com.woltlab.wcf.conversation.message">Conversations</a></li>
+                <li><a href="#" data-extended-link="https://emergency-luedenscheid.de/search/?type=com.woltlab.wbb.post&amp;extended=1" data-object-type="com.woltlab.wbb.post">Forum</a></li>
+                <li><a href="#" data-extended-link="https://emergency-luedenscheid.de/search/?type=com.viecode.lexicon.entry&amp;extended=1" data-object-type="com.viecode.lexicon.entry">entry</a></li>
+                <li><a href="#" data-extended-link="https://emergency-luedenscheid.de/search/?type=com.viecode.filebase.entry&amp;extended=1" data-object-type="com.viecode.filebase.entry">Filebase Entry</a></li>
+                <li><a href="#" data-extended-link="https://emergency-luedenscheid.de/search/?type=de.yourecom.workplace.task&amp;extended=1" data-object-type="de.yourecom.workplace.task">Tasks</a></li>
+                <li class="dropdownDivider"></li>
+                <li><a class="pageHeaderSearchExtendedLink" href="https://emergency-luedenscheid.de/search/?extended=1">More Options</a></li>
+              </ul>
             </div>
+            <input type="search" name="q" id="pageHeaderSearchInput" class="pageHeaderSearchInput" placeholder="Search …" autocomplete="off" value="">
+            <button class="pageHeaderSearchInputButton button" type="submit"> <span class="icon icon16 fa-search pointer" title="Search"></span> </button>
+            <div id="pageHeaderSearchParameters"></div>
+          </div>
+        </form>
+      </div>
+	  </div></div>
+    </header>
+  </div>
+  <div id="pageHeaderHero" class="pageHeaderHero">
+    <div class="pageNavigation">
+      <div class="layoutBoundary"> </div>
+    </div>
+  </div>
+  <div class="boxesTop">
+    <div class="boxContainer">
+      <div class="box boxHTML boxgenericBox86" data-box-identifier="com.woltlab.wcf.genericBox86">
+        <div class="boxContent boxContentHTML">
+          <center>
+            <div class="video">
+              <iframe 
+     src="https://kick.com/kutteredgestudios?autoplay=true&allowfullscreen=false"> </iframe>
+            </div>
+          </center>
+          <style>
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+	</style>
         </div>
+      </div>
+      <div class="box boxSystem boxgenericBox25  boxBorderless" data-box-identifier="com.woltlab.wcf.genericBox25">
+        <div class="boxContent boxContentSystem">
+          <div class="row rowColGap boxxerColumnsBox boxxerColumnsBox25">
+            <div class="col column1 col-md-auto col-xs-12 boxesContentTop boxesAlignmentFill">
+              <div class="boxContainer"> </div>
+            </div>
+            <div class="col column2 col-md-auto col-xs-12 boxesContentTop boxesAlignmentFill">
+              <div class="boxContainer"> </div>
+            </div>
+            <div class="col column3 col-md-auto col-xs-12 boxesContentTop boxesAlignmentFill">
+              <div class="boxContainer"> </div>
+            </div>
+            <div class="col column4 col-md-auto col-xs-12 boxesContentTop boxesAlignmentFill">
+              <div class="boxContainer"> </div>
+            </div>
+            <div class="col column5 col-md-auto col-xs-12 boxesContentTop boxesAlignmentFill">
+              <div class="boxContainer"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Team End -->
-	
-	<!-- ======= Supporters Section ======= -->
-    <section id="supporters" class="section-with-bg">
-
-      <div class="container" data-aos="fade-up">
-       <center> <div class="section-header">
-          <span><h1>PARTNERSHIPS</h1></span>
-        </div></center>
-
-        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://hosthavoc.com/billing/aff.php?aff=2080" target="_blank"><img src="img/supporters/HostHavoc.png" class="img-fluid" alt=""></a>
+  </div>
+  <section id="main" class="main" role="main">
+    <div class="layoutBoundary activityIconsSquare">
+      <div id="content" class="content contentgeneric84 messageGroupListStatsDetailed wbbThreadsBoxHeader">
+        <div id="contentHead"> </div>
+        <div class="boxesContentBottom">
+          <div class="boxContainer">
+            <div class="box boxText boxgenericBox33" data-box-identifier="com.woltlab.wcf.genericBox33">
+              <div class="boxContent boxContentText htmlContent">
+                <p><span class="mediaBBCode messageFloatObjectLeft"> <img src="assets/img/me.png" alt="" title="" width="560" height="315" loading="lazy"> </span></p>
+                <p><span style="font-family:inherit;"><span style="font-size: 16px;">First of all, allow me to introduce myself, My name is Keith, but most people online call me Kutter.<br><br> I am a dad first so getting to game is a fun hobby for me. I try to livestream if I can but love to just get on the PC and game with friends.<br><br>
+Like all people on the internet, I started out watching and enjoying videos of people playing video games. So I saved for almost a year and bought a computer that could handle almost any game on the market.<br><br> In 2008, I started buying parts and got my first PC build together, after that it was <strong>"Game On"</strong>.<br><br> I like playing a lot of different games and I'm not picky one over the other.<br><br> I now have started working in graphic designs and dabbling in a little coding here and there.</span></span></p>
+                <p><span style="font-family:inherit;"><span style="font-size: 16px;"><br>
+                  </span></span></p><br>
+                
+                <p class="text-justify"><strong></strong></p>
+                <p><br>
+                </p>
+                <p class="text-justify"><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong><br>
+                  </strong></p>
+                <p class="text-justify"><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong><br>
+                  </strong></p>
+                <p class="text-justify"><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong><br>
+                  </strong></p>
+                <p class="text-justify"><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong><br>
+                  </strong></p>
+                <p class="text-justify"><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong><br>
+                  </strong></p>
+                <p class="text-justify"><strong><span style="font-family:inherit;"><span style="font-size: 16px;">Join the Community</span></span></strong><span class="mediaBBCode messageFloatObjectRight"> <a href="https://discord.com/invite/NREFTRSPcZ" class="embeddedAttachmentLink jsImageViewer"><img src="assets/img/socials/discord.png" alt="" title="" width="560" height="282" loading="lazy"></a> </span><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                Connect with fellow enthusiasts, receive exclusive announcements, and participate in in-depth discussions. Our Discord server is your one-stop shop for staying informed and engaged. Click the image to join the fun!
+                <p><strong></strong></p>
+                <p><br>
+                </p>
+                <p class="text-justify"><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p class="text-justify"><strong></strong></p>
+                <p><br>
+                </p>
+                <p><strong></strong></p>
+                <p><br>
+                </p>
+                <p><br>
+                </p>
+                <p><br>
+                </p>
+                <p><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong><br>
+                  </strong></p>
+                <p><span class="mediaBBCode messageFloatObjectLeft"> <a href="https://www.iracing.com/membership/?refid=173156" class="embeddedAttachmentLink jsImageViewer"><img src="assets/img/supporters/iRacing.jpg" alt="" title="" width="560" height="279" loading="lazy"></a> </span><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong><br>
+                  </strong></p><p>This image is your way to get a membership with Iracing at a lower cost to you. This can help if you want to get into racing and have a limited budget. So what are you waiting for? Click the image and start saving today!</p>
+                <p><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></p>
+                <p><strong></strong></p>
+                <p><br>
+                </p>
+                <p><strong><span style="font-family:inherit;"><span style="font-size: 16px;"><span></span></span></span></strong></p>
+                <p><strong></strong></p>
+                <p><br>
+                </p>
+                <p><strong></strong></p>
+                <p><br>
+                </p>
+                <p><strong></strong></p>
+                <p><br>
+                </p>
+                <p><strong></strong></p>
+                <p><br>
+                </p>
+                <p><strong></strong></p>
+                <p><br>
+                </p>
+                <p><span class="mediaBBCode messageFloatObjectRight"> <a href="https://www.instant-gaming.com/?igr=kutteredge" class="embeddedAttachmentLink jsImageViewer"><img src="assets/img/supporters/instant gaming.png" alt="" title="" width="554" height="420" loading="lazy"></a> </span><strong></strong></p>
+                <p><br>
+                </p>
+                <p>This image is your gateway to a world of discounts on PC and console games. With Instant Gaming, you can slash prices on your favorite titles by up to a whopping 90%. Whether you're looking for the latest AAA releases or hidden indie gems, you're sure to find something to suit your taste and budget. Plus, with Instant Gaming's secure platform and instant downloads, you can start playing your new games in no time. So what are you waiting for? Click the image and start saving today!</p>
+              </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://clouddatahosting.net/" target="_blank"><img src="img/supporters/CDH.png" class="img-fluid" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="pageFooter" class="pageFooter">
+    <div class="pageFooterBunch">
+      <div class="layoutBoundary">
+        <div class="footerBunchLinks">
+          <div class="footerBunchLinksMain">
+            <h2 class="footerBunchTitle"></h2>
+            <div class="box boxMainMenu mainMenu" data-box-identifier="com.woltlab.wcf.MainMenu">
+              <div class="boxContent boxContentMenu">
+                <nav aria-label="Main Menu">
+                  <ol class="boxMenu">
+                    <li class="active" data-identifier="420b698a2afe14d465503542bb0b4b8fc7a6e375"> <a href="https://emergency-luedenscheid.de/" class="boxMenuLink" aria-current="page"> <span class="boxMenuLinkTitle">Home</span> </a> </li>
+                    <li class="" data-identifier="com.woltlab.wcf.ArticleList"> <a href="https://emergency-luedenscheid.de/news-list/" class="boxMenuLink"> <span class="boxMenuLinkTitle">News</span> </a> </li>
+                    <li class=" boxMenuHasChildren" data-identifier="com.viecode.lexicon.Lexicon"> <a href="https://emergency-luedenscheid.de/wiki/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Wiki</span> <span class="boxMenuLinkOutstandingItems badge badgeUpdate" aria-label="(1 New Item)">1</span> </a>
+                      <ol class="boxMenuDepth1">
+                        <li class="" data-identifier="com.viecode.lexicon.UnreadEntryList"> <a href="https://emergency-luedenscheid.de/wiki/unread-entry-list/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Unread Entires</span> <span class="boxMenuLinkOutstandingItems badge badgeUpdate" aria-label="(1 New Item)">1</span> </a> </li>
+                      </ol>
+                    </li>
+                    <li class="" data-identifier="com.woltlab.wbb.BoardList"> <a href="https://emergency-luedenscheid.de/community/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Forum</span> <span class="boxMenuLinkOutstandingItems badge badgeUpdate" aria-label="(8 News Items)">8</span> </a> </li>
+                    <li class="" data-identifier="de.darksilent.emlst.menu.leitstelle"> <a href="https://emergency-luedenscheid.de/leitstelle/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Leitstelle</span> </a> </li>
+                    <li class="" data-identifier="com.viecode.filebase.Filebase"> <a href="https://emergency-luedenscheid.de/filebase/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Downloads</span> </a> </li>
+                    <li class="" data-identifier="de.yourecom.workplace.taskList"> <a href="https://emergency-luedenscheid.de/tasks/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Work Place</span> </a> </li>
+                    <li class="" data-identifier="wcf.header.menu.donation"> <a href="https://emergency-luedenscheid.de/donations/" class="boxMenuLink"> <span class="boxMenuLinkTitle">Donations</span> </a> </li>
+                  </ol>
+                </nav>
+              </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://www.logitechg.com/en-us" target="_blank"><img src="img/supporters/Logitech.png" class="img-fluid" alt=""></a>
+        </div>
+        <div class="footerAbout">
+          <h2 class="footerBunchTitle"></h2>
+          <div class="footerBunchContent">
+            <p class="footerAboutTeaser"> </p>
+            <div class="footerLogo"><img src="assets/img/1New Logo.png" alt="wcf.acp.option.option28" /></div>
+            <div class="footerLegal">
+              <p class="footerLegalCopyright">Copyright © 2008. All Rights Reserved.</p>
+              <div class="footerLegalLinks">
+              </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://www.corsair.com/us/en/s/icue" target="_blank"><img src="img/supporters/corsiar.png" class="img-fluid" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="boxesFooter">
+      <div class="layoutBoundary">
+        <div class="boxContainer">
+          <div class="box boxFooterMenu" data-box-identifier="com.woltlab.wcf.FooterMenu">
+            <div class="boxContent boxContentMenu">
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="pageFooterCredits">
+      
+    </div>
+  </footer>
+</div>
+<div class="pageFooterStickyNotice">
+  <noscript>
+  <div class="info" role="status">
+    <div class="layoutBoundary"> <span class="javascriptDisabledWarningText">Your browser has JavaScript disabled. If you would like to use all features of this site, it is mandatory to enable JavaScript.</span> </div>
+  </div>
+  </noscript>
+</div>
+<script>
+	require(['Language', 'WoltLabSuite/Core/BootstrapFrontend', 'User'], function(Language, BootstrapFrontend, User) {
+		Language.addObject({
+			'__days': [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ],
+			'__daysShort': [ 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ],
+			'__months': [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ], 
+			'__monthsShort': [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ],
+			'wcf.clipboard.item.unmarkAll': 'Unmark All',
+			'wcf.clipboard.item.markAll': 'Mark All Objects',
+			'wcf.clipboard.item.mark': 'Mark Object',
+			'wcf.date.relative.now': 'A moment ago',
+			'wcf.date.relative.minutes': '{if $minutes > 1}{#$minutes} minutes{else}A minute{\/if} ago',
+			'wcf.date.relative.hours': '{if $hours > 1}{#$hours} hours{else}An hour{\/if} ago',
+			'wcf.date.relative.pastDays': '{if $days > 1}{$day}{else}Yesterday{\/if}, {$time}',
+			'wcf.date.dateFormat': 'M jS Y',
+			'wcf.date.dateTimeFormat': '%date%, %time%',
+			'wcf.date.shortDateTimeFormat': '%date%',
+			'wcf.date.hour': 'Hour',
+			'wcf.date.minute': 'Minute',
+			'wcf.date.timeFormat': 'g:i a',
+			'wcf.date.firstDayOfTheWeek': '0',
+			'wcf.global.button.add': 'Add',
+			'wcf.global.button.cancel': 'Cancel',
+			'wcf.global.button.close': 'Close',
+			'wcf.global.button.collapsible': 'Expand and Collapse',
+			'wcf.global.button.delete': 'Delete',
+			'wcf.button.delete.confirmMessage': 'Do you really want to delete <strong>{$objectTitle}<\/strong>?',
+			'wcf.global.button.disable': 'Disable',
+			'wcf.global.button.disabledI18n': 'monolingual',
+			'wcf.global.button.edit': 'Edit',
+			'wcf.global.button.enable': 'Enable',
+			'wcf.global.button.hide': 'Hide',
+			'wcf.global.button.insert': 'Insert',
+			'wcf.global.button.more': 'More',
+			'wcf.global.button.next': 'Next »',
+			'wcf.global.button.preview': 'Preview',
+			'wcf.global.button.reset': 'Reset',
+			'wcf.global.button.save': 'Save',
+			'wcf.global.button.search': 'Search',
+			'wcf.global.button.submit': 'Submit',
+			'wcf.global.button.upload': 'Upload',
+			'wcf.global.confirmation.cancel': 'Cancel',
+			'wcf.global.confirmation.confirm': 'OK',
+			'wcf.global.confirmation.title': 'Confirmation Required',
+			'wcf.global.decimalPoint': '.',
+			'wcf.global.error.ajax.network': '<p>Unable to connect to the server, please check your internet connection.<\/p><p><br><\/p><p>Error message from your browser: “{$message}”<\/p>',
+			'wcf.global.error.timeout': 'Did not receive a response from server, request aborted.',
+			'wcf.global.form.error.empty': 'Please fill in this field.',
+			'wcf.global.form.error.greaterThan': 'The entered value has to be greater than {#$greaterThan}.',
+			'wcf.global.form.error.lessThan': 'The entered value has to be less than {#$lessThan}.',
+			'wcf.global.form.error.multilingual': 'Please fill in this field for all languages.',
+			'wcf.global.form.input.maxItems': 'Maximum items reached',
+			'wcf.global.language.noSelection': 'No Selection',
+			'wcf.global.loading': 'Loading …',
+			'wcf.global.noSelection': '(No Selection)',
+			'wcf.global.select': 'Select',
+			'wcf.page.jumpTo': 'Go to Page',
+			'wcf.page.jumpTo.description': 'Enter a value between “1” and “#pages#”.',
+			'wcf.global.page.pagination': 'Navigation',
+			'wcf.global.page.next': 'Next Page',
+			'wcf.global.page.previous': 'Previous Page',
+			'wcf.global.pageDirection': 'ltr',
+			'wcf.global.reason': 'Reason',
+			'wcf.global.scrollUp': 'Go to Page Top',
+			'wcf.global.success': 'The action completed successfully.',
+			'wcf.global.success.add': 'The entry has been saved.',
+			'wcf.global.success.edit': 'Your changes have been saved.',
+			'wcf.global.thousandsSeparator': ',',
+			'wcf.page.pagePosition': 'Page {#$pageNo} of {#$pages}',
+			'wcf.style.changeStyle': 'Change Style',
+			'wcf.user.activityPoint': 'Points',
+			'wcf.global.button.markAllAsRead': 'Mark All as Read',
+			'wcf.global.button.markAsRead': 'Mark as Read',
+			'wcf.user.panel.settings': 'Settings',
+			'wcf.user.panel.showAll': 'Display All',
+			'wcf.menu.page': 'Menu',
+			'wcf.menu.page.button.toggle': 'More {$title} pages',
+			'wcf.menu.user': 'User Menu',
+			'wcf.global.button.showMenu': 'Show Menu',
+			'wcf.global.button.hideMenu': 'Hide Menu',
+			'wcf.date.datePicker': 'Choose Date',
+			'wcf.date.datePicker.previousMonth': 'Previous Month',
+			'wcf.date.datePicker.nextMonth': 'Next Month',
+			'wcf.date.datePicker.month': 'Month',
+			'wcf.date.datePicker.year': 'Year',
+			'wcf.date.datePicker.hour': 'Hour',
+			'wcf.date.datePicker.minute': 'Minute',
+			'wcf.global.form.password.button.hide': 'Hide',
+			'wcf.global.form.password.button.show': 'Show',
+			'wcf.message.share': 'Share',
+			'wcf.message.share.facebook': 'Facebook',
+			'wcf.message.share.twitter': 'Twitter',
+			'wcf.message.share.reddit': 'Reddit',
+			'wcf.message.share.whatsApp': 'WhatsApp',
+			'wcf.message.share.linkedIn': 'LinkedIn',
+			'wcf.message.share.pinterest': 'Pinterest',
+			'wcf.message.share.xing': 'XING',
+			'wcf.message.share.permalink': 'Permalink',
+			'wcf.message.share.permalink.bbcode': 'BBCode',
+			'wcf.message.share.permalink.html': 'HTML',
+			'wcf.message.share.socialMedia': 'Social Media',
+			'wcf.message.share.copy': 'Copy Code',
+			'wcf.message.share.copy.success': 'The code has been successfully copied.',
+			'wcf.message.share.nativeShare': 'More Options',
+			'wcf.global.button.rss': 'RSS Feed',
+			'wcf.global.rss.copy': 'Copy Link',
+			'wcf.global.rss.copy.success': 'The link has been copied successfully.',
+			'wcf.global.rss.accessToken.info': 'The link to the anonymous RSS feed only contains contents that guests can access. The link to the personalized RSS feed contains all contents that you can access.',
+			'wcf.global.rss.withoutAccessToken': 'Anonymous RSS Feed',
+			'wcf.global.rss.withAccessToken': 'Personalized RSS Feed',
+			'wcf.user.language': 'Language'
+							,'wcf.like.button.like': 'Like',
+				'wcf.like.button.dislike': 'Dislike',
+				'wcf.like.tooltip': '{if $likes}{#$likes} Like{if $likes != 1}s{\/if}{if $dislikes}, {\/if}{\/if}{if $dislikes}{#$dislikes} Dislike{if $dislikes != 1}s{\/if}{\/if}',
+				'wcf.like.summary': '{if $others == 0}{@$users.slice(0, -1).join(\", \")}{if $users.length > 1} and {\/if}{@$users.slice(-1)[0]}{else}{@$users.join(\", \")} and {if $others == 1}one{else}{#$others}{\/if} other{if $others > 1}s{\/if}{\/if} like{if $users.length == 1}s{\/if} this.',
+				'wcf.like.details': 'Details',
+				'wcf.reactions.react': 'React'
+						
 			
-			<div class="container" data-aos="fade-up">
-       <center> <div class="section-header">
-          <span><h2><br></h2></span>
-        </div></center>
+                ,'wcf.global.fontawesome.title': 'Font Awesome Icons',
+                'wcf.global.fontawesome.icons': 'Icons',
+                'wcf.global.fontawesome.search': 'Icon search',
+                'wcf.global.fontawesome.confirm': 'Select Icon',
+                'wcf.global.fontawesome.cancel': 'Cancel'
+            
+		});
+		
+		User.init(
+			16763,
+			'Kutter Edge',
+			'https:\/\/emergency-luedenscheid.de\/user\/16763-kutter-edge\/'		);
+		
+		BootstrapFrontend.setup({
+			backgroundQueue: {
+				url: 'https://emergency-luedenscheid.de/background-queue-perform/',
+				force: false			},
+			enableUserPopover: true,
+			executeCronjobs: false,
+						    shareButtonProviders: ['Facebook', 'Twitter', 'WhatsApp'],
+						styleChanger: false		});
+	});
+	
+	// prevent jQuery and other libraries from utilizing define()
+	__require_define_amd = define.amd;
+	define.amd = undefined;
+</script> 
+<script src="https://emergency-luedenscheid.de/js/WCF.Combined.min.js?v=1706173276"></script> 
+<script>
+	define.amd = __require_define_amd;
+	$.holdReady(true);
+	
+	WCF.User.init(
+		16763,
+		'Kutter Edge'	);
+</script> 
+<script src="https://emergency-luedenscheid.de/community/js/WBB.min.js?v=1706173276"></script> 
+<script>
+	$(function() {
+		var upload = WCF.Attachment.Upload.prototype._upload,
+			success = WCF.Attachment.Upload.prototype._success;
 
-        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+		WCF.Attachment.Upload.prototype._upload = function(event, file, blob, callbackUploadId) {
+			this._className = "wcf\\data\\attachment\\TinyImgAttachmentAction";
 
+			upload.apply(this, [event, file, blob, callbackUploadId]);
+		};
+
+		WCF.Attachment.Upload.prototype._success = function(uploadID, data) {
+			var attachmentData;
+
+			for (var $i in this._uploadMatrix[uploadID]) {
+				if (!this._uploadMatrix[uploadID].hasOwnProperty($i)) {
+					continue;
+				}
+
+				var $li = this._uploadMatrix[uploadID][$i],
+						$filename = $li.data("filename"),
+						$internalFileID = $li.data("internalFileID");
+
+				if (data.returnValues && data.returnValues.attachments[$internalFileID]) {
+					attachmentData = data.returnValues.attachments[$internalFileID];
+
+					if (attachmentData.filename) {
+						$li.data("filename", attachmentData.filename)
+					}
+				}
+			}
+
+			success.apply(this, [uploadID, data]);
+		}
+	});
+</script> 
+<script src="https://emergency-luedenscheid.de/tasks/js/Workplace.min.js?v=1706173276"></script> 
+<script>
+	$(function() {
+		WCF.User.Profile.ActivityPointList.init();
+		
+					require(['WoltLabSuite/Core/Ui/User/Trophy/List'], function (UserTrophyList) {
+				new UserTrophyList();
+			});
+				
+		require(['WoltLabSuite/Forum/Bootstrap'], (Bootstrap) => {
+	Bootstrap.setup();
+});
+require(['WoltLabSuite/Core/Controller/Popover'], function(ControllerPopover) {
+	ControllerPopover.init({
+		className: 'workplaceTaskLink',
+		dboAction: 'workplace\\data\\task\\TaskAction',
+		identifier: 'com.woltlab.workplace.task'
+	});
+	
+	// @deprecated 5.3 use `data-object-id` or `anchor` template plugin
+	ControllerPopover.init({
+		attributeName: 'data-task-id',
+		className: 'workplaceTaskLink',
+		dboAction: 'workplace\\data\\task\\TaskAction',
+		identifier: 'com.woltlab.workplace.task.deprecated'
+	});
+});
+		
+					require(['WoltLabSuite/Core/Notification/Handler'], function(NotificationHandler) {
+				NotificationHandler.setup({
+					enableNotifications: true,
+					icon: 'https://emergency-luedenscheid.de/images/style-26/apple-touch-icon.png',
+				});
+			});
+			});
+</script> 
+<script>
+		var $imageViewer = null;
+		$(function() {
+			WCF.Language.addObject({
+				'wcf.imageViewer.button.enlarge': 'Full Screen Mode',
+				'wcf.imageViewer.button.full': 'View Source Image',
+				'wcf.imageViewer.seriesIndex': '{literal}{x} of {y}{\/literal}',
+				'wcf.imageViewer.counter': '{literal}Image {x} of {y}{\/literal}',
+				'wcf.imageViewer.close': 'Close',
+				'wcf.imageViewer.enlarge': 'View Full Image',
+				'wcf.imageViewer.next': 'Next Image',
+				'wcf.imageViewer.previous': 'Previous Image'
+			});
 			
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://www.instant-gaming.com/?igr=kutteredge" target="_blank"><img src="img/supporters/instant gaming.png" class="img-fluid" alt=""></a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://www.iracing.com/membership/?refid=173156" target="_blank"><img src="img/supporters/iRacing.jpg" class="img-fluid" alt=""></a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://eshop.thrustmaster.com/en_us/" target="_blank"><img src="img/supporters/TM.png" class="img-fluid" alt=""></a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <a href="https://www.trackir.com/" target="_blank"><img src="img/supporters/TIR5.png" class="img-fluid" alt=""></a>
-            </div>
-          </div>
-        </div>
-			</div></div></div>
-    </section><!-- End Sponsors Section -->
-	
-	<br><br>
-	
-	<!-- Footer Start -->
-    <div class="container-fluid footer pt-5">
-        <div class="container wow fadeIn" data-wow-delay="0.1s">
-            <center><div class="copyright">
-                <div>
-                    <div class="col-md-6 text-center mb-md-0">
-						<span>&copy; 2008 Kutter Edge Studios, All Right Reserved!</span>
-                    </div>
-            </div>
-                </div></center>
-        </div>
-    </div>
-    <!-- Footer End -->
+			$imageViewer = new WCF.ImageViewer();
+		});
+		
+		// WCF 2.0 compatibility, dynamically fetch slimbox and initialize it with the request parameters
+		$.widget('ui.slimbox', {
+			_create: function() {
+				var self = this;
+				head.load('https://emergency-luedenscheid.de/js/3rdParty/slimbox2.min.js', function() {
+					self.element.slimbox(self.options);
+				});
+			}
+		});
+	</script> 
+<script>
+	WCF.Language.addObject({
+		
+		'wcf.global.error.title': 'Error Message'
+		
+		
+		
+	});
+</script> 
+<script>
+	$(function() {
+		
+		require(['WoltLabSuite/Core/Controller/Popover'], function(ControllerPopover) {
+	ControllerPopover.init({
+		className: 'lexiconEntryLink',
+		dboAction: 'lexicon\\data\\entry\\EntryAction',
+		identifier: 'com.viecode.lexicon.entry'
+	});
+});
+require(['WoltLabSuite/Core/Controller/Popover'], function(ControllerPopover) {
+	ControllerPopover.init({
+		className: 'filebaseEntryLink',
+		dboAction: 'filebase\\data\\entry\\EntryAction',
+		identifier: 'com.viecode.filebase.entry'
+	});
+});
+	});
+</script> 
+<script>
+	$('.messageTabMenu').prev('.section').addClass('sectionMessageTabMenu');
+	$('.messageList').closest('.section').addClass('sectionMessageList sectionBorderlessNoBg');
+	$('.contentItemList').closest('.section').addClass('sectionContentItemList sectionBorderlessNoBg');
+	$('.contentItemList').prev('.sectionTitle').addClass('sectionTitleContentItemList');
+	$('.contentItemList').parent().prev('.boxTitle').addClass('boxTitleContentItemList');
+	$('.filebaseFileList').closest('.section').addClass('sectionFileList sectionBorderlessNoBg');
+	$('.filebaseFileList').parent().prev('.boxTitle').addClass('boxTitleFileList');
+	$('.messageList, .contentItemList, .filebaseFileList').closest('.box').addClass('boxBorderlessNoBg');
+	$('.galleryImageGrid, .galleryMasonry, .galleryImagesInMotion, .galleryImageList').closest('.boxContent').addClass('boxContentGalleryImages');
+</script> 
+<script>
+	require(['CW/Mega/Menu/Handler'], function(MegaMenuHandler) {
+	    MegaMenuHandler.init();
+	});
+</script> 
+<script>
+		require(['WoltLabSuite/Core/Ui/Search/Page'], function(UiSearchPage) {
+			UiSearchPage.init('everywhere');
+		});
+	</script> 
+<script>
+					require(["WoltLabSuite/Core/Ui/User/Menu/ControlPanel"], ({ setup }) => setup());
+				</script> 
+<script>
+							require(["WoltLabSuite/Core/Language", "WoltLabSuite/Core/Ui/User/Menu/Data/Notification"], (Language, { setup }) => {
+								Language.addObject({
+									"wcf.user.notification.enableDesktopNotifications": "Enable desktop notifications to receive alerts for new notifications.",
+									"wcf.user.notification.enableDesktopNotifications.button": "Change Preference",
+								});
 
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="fa fa-hand-point-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+								setup({
+									noItems: 'You have no recent notifications.',
+									settingsLink: 'https://emergency-luedenscheid.de/notification-settings/',
+									settingsTitle: 'Settings',
+									showAllLink: 'https://emergency-luedenscheid.de/notification-list/',
+									showAllTitle: 'Display All Notifications',
+									title: 'Notifications',
+								});
+							});
+						</script> 
+<script src="https://emergency-luedenscheid.de/js/WCF.Conversation.min.js?v=1706173276"></script> 
+<script>
+				require(["WoltLabSuite/Core/Conversation/Ui/User/Menu/Data/Conversation"], ({ setup }) => {
+					setup({
+						canStartConversation: true,
+						newConversationLink: 'https://emergency-luedenscheid.de/conversation-add/',
+						newConversationTitle: 'Create Conversation',
+						noItems: 'You have no recent conversations.',
+						showAllLink: 'https://emergency-luedenscheid.de/conversation-list/',
+						showAllTitle: 'Display All Conversations',
+						title: 'Conversations',
+					});
+				});
+			</script> 
+<script>
+			require(['https://emergency-luedenscheid.de/js/ForoStyle/RadiantDark/3rdParty/lightslider/lightslider.1.1.6.min.js'], function() {
+				$('.headerSlidesList').lightSlider({
+					item: 1,
+					slideMargin: 0,
+					speed: 600,
+					auto: true,
+					pauseOnHover: true,
+					loop: true,
+					pause: 10000,
+					adaptiveHeight: true,
+					onSliderLoad: function() {
+						$('.headerSlides').removeClass('headerSlidesLoading');
+					}
+				});
+			});
+			
+			var elementsToRemove = document.querySelectorAll(".modificationLogEntryHide");
+			elementsToRemove.forEach(function(element) {
+    			element.remove();
+			});
+		</script> 
+<span id="bottom"></span>
 </body>
-
 </html>
