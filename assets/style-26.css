@@ -108,7 +108,7 @@ woltlab-suite-preload:root {
   margin-bottom: 30px
 }
 .redactor-layer pre.woltlabHtml::after {
-  color: #566476;
+  color: #000;
   content: attr(data-description);
   cursor: pointer;
   display: block;
@@ -128,7 +128,7 @@ woltlab-suite-preload:root {
   }
 }
 .codeBox {
-  background-color: #0f131a;
+  background-color: #000;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
   clear: both;
@@ -149,7 +149,7 @@ woltlab-suite-preload:root {
   z-index: 1
 }
 .codeBox.collapsed > .toggleButton::before {
-  background-image: linear-gradient(to top, #0f131a, rgba(15, 19, 26, 0));
+  background-image: linear-gradient(to top, #000, rgba(15, 19, 26, 0));
   content: "";
   height: 60px;
   left: 0;
@@ -164,7 +164,7 @@ woltlab-suite-preload:root {
   z-index: 1;
   padding: 10px 10px 10px;
   margin: -10px -10px 0;
-  background-color: #0f131a;
+  background-color: #000;
   align-items: center;
   display: flex;
   min-height: 24px
@@ -238,7 +238,7 @@ woltlab-suite-preload:root {
   background-color: #ff6
 }
 .codeBox > .toggleButton {
-  background-color: #0f131a;
+  background-color: #000;
   cursor: pointer;
   display: block;
   padding: 10px 20px 0 10px;
@@ -302,7 +302,7 @@ woltlab-suite-preload:root {
   cursor: help
 }
 .formBBCodeList {
-  background-color: #0f131a;
+  background-color: #000;
   border-top: 1px solid #171d26;
   border-bottom: 1px solid #171d26
 }
@@ -337,7 +337,7 @@ woltlab-suite-preload:root {
   margin: 0 !important
 }
 .formBBCodeBox {
-  background-color: #0f131a;
+  background-color: #000;
   border-radius: 3px;
   color: #7a8da6;
   border: 1px #191f29 solid
@@ -381,7 +381,7 @@ woltlab-suite-preload:root {
   }
 }
 .groupMention {
-  background-color: #1d2430;
+  background-color: #000;
   border-radius: 2px;
   color: #7a8da6;
   padding: 1px 5px
@@ -482,7 +482,7 @@ iframe.instagram-media {
   position: relative !important
 }
 woltlab-quote, .quoteBox {
-  background-color: #0f131a;
+  background-color: #000;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
   clear: both;
@@ -524,7 +524,7 @@ woltlab-quote .quoteBox .quoteBoxIcon, .quoteBox .quoteBox .quoteBoxIcon {
 }
 .quoteBox.collapsed > .toggleButton {
   bottom: 0;
-  box-shadow: 0 -10px 50px 10px #0f131a;
+  box-shadow: 0 -10px 50px 10px #000;
   left: 0;
   padding-bottom: 10px;
   position: absolute;
@@ -532,7 +532,7 @@ woltlab-quote .quoteBox .quoteBoxIcon, .quoteBox .quoteBox .quoteBoxIcon {
   z-index: 1
 }
 .quoteBox > .toggleButton {
-  background-color: #0f131a;
+  background-color: #000;
   cursor: pointer;
   display: block;
   padding: 10px 20px 0 10px;
@@ -650,7 +650,7 @@ woltlab-quote:not(.redactorCalcHeight)::before {
   margin-bottom: 0 !important
 }
 .redactor-layer woltlab-spoiler {
-  background-color: #0f131a;
+  background-color: #000;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
   display: block;
@@ -682,7 +682,7 @@ woltlab-quote:not(.redactorCalcHeight)::before {
   margin: 1em 0
 }
 .spoilerBox > .spoilerBoxContent {
-  background-color: #0f131a;
+  background-color: #000;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   padding: 10px 20px;
   margin-top: 10px
@@ -694,7 +694,7 @@ woltlab-quote:not(.redactorCalcHeight)::before {
   margin-bottom: 0
 }
 .userMention {
-  background-color: #1d2430;
+  background-color: #000;
   border-radius: 2px;
   padding: 1px 5px
 }
@@ -938,7 +938,7 @@ ol.nativeList {
   margin-right: 8px
 }
 .tagList .tag {
-  background-color: #2a3445;
+  background-color: #000;
   color: #7085a9;
   display: inline-block;
   margin-left: 11px;
@@ -3397,7 +3397,7 @@ a > span.icon:not(.pointer), a > span.fa:not(.pointer) {
   }
 }
 .boxesHeaderBoxes {
-  background-color: #1d2430;
+  background-color: #000;
   color: #7a8da6
 }
 .boxesHeaderBoxes a {
@@ -3666,7 +3666,7 @@ a > span.icon:not(.pointer), a > span.fa:not(.pointer) {
   text-decoration: underline
 }
 .boxesSidebarLeft .box.boxError, .boxesSidebarRight .box.boxError {
-  background-color: #1a202b;
+  background-color: #000;
   color: #e72a2a
 }
 .boxesSidebarLeft .box.boxError a:not(.button), .boxesSidebarRight .box.boxError a:not(.button) {
@@ -3676,7 +3676,7 @@ a > span.icon:not(.pointer), a > span.fa:not(.pointer) {
   color: #e72a2a
 }
 .boxesSidebarLeft .box.boxInfo, .boxesSidebarRight .box.boxInfo {
-  background-color: #1a202b;
+  background-color: #000;
   color: #1f94f4
 }
 .boxesSidebarLeft .box.boxInfo a:not(.button), .boxesSidebarRight .box.boxInfo a:not(.button) {
@@ -3686,7 +3686,7 @@ a > span.icon:not(.pointer), a > span.fa:not(.pointer) {
   color: #1f94f4
 }
 .boxesSidebarLeft .box.boxSuccess, .boxesSidebarRight .box.boxSuccess {
-  background-color: #1a202b;
+  background-color: #000;
   color: #15b55d
 }
 .boxesSidebarLeft .box.boxSuccess a:not(.button), .boxesSidebarRight .box.boxSuccess a:not(.button) {
@@ -3696,7 +3696,7 @@ a > span.icon:not(.pointer), a > span.fa:not(.pointer) {
   color: #15b55d
 }
 .boxesSidebarLeft .box.boxWarning, .boxesSidebarRight .box.boxWarning {
-  background-color: #1a202b;
+  background-color: #000;
   color: #ffa21f
 }
 .boxesSidebarLeft .box.boxWarning a:not(.button), .boxesSidebarRight .box.boxWarning a:not(.button) {
@@ -3717,7 +3717,7 @@ a > span.icon:not(.pointer), a > span.fa:not(.pointer) {
   flex: 0 0 auto
 }
 .boxesSidebarLeft .box .boxMenu li.active > .boxMenuLink, .boxesSidebarRight .box .boxMenu li.active > .boxMenuLink {
-  background-color: #0f131a;
+  background-color: #000;
   color: #c60000
 }
 .boxesSidebarLeft .box .boxMenu li.active > .boxMenuLink:hover, .boxesSidebarRight .box .boxMenu li.active > .boxMenuLink:hover {
@@ -3879,7 +3879,7 @@ a > span.icon:not(.pointer), a > span.fa:not(.pointer) {
   color: #eb5252
 }
 .boxesContentTop .boxInfo, .boxesContentBottom .boxInfo {
-  background-color: #1a202b;
+  background-color: #000;
   color: #1f94f4;
   padding: 20px;
   text-align: center
@@ -4188,7 +4188,7 @@ html:not(.touch) .boxWithEditButton:hover .boxEditButton {
   border-bottom: 1px solid #171d26
 }
 .containerList > li:hover {
-  background-color: #1c222f
+  background-color: #000
 }
 .containerList > li.showMore {
   text-align: center
@@ -4326,7 +4326,7 @@ html:not(.touch) .boxWithEditButton:hover .boxEditButton {
     text-overflow: ellipsis
   }
   .containerList > li .buttonGroupNavigation > .buttonList li > a {
-    color: #7a8da6
+    color: #00ff00
   }
   .containerList > li .buttonGroupNavigation > .buttonList li > a > small {
     display: block
@@ -4402,7 +4402,7 @@ html:not(.touch) .boxWithEditButton:hover .boxEditButton {
     display: none
   }
   .containerList > li .buttonGroupNavigation > ul {
-    background-color: #0f131a;
+    background-color: #000;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 6px
   }
@@ -5137,7 +5137,7 @@ textarea {
   }
 }
 textarea[disabled], textarea[readonly] {
-  background-color: #2a3445 !important;
+  background-color: #000 !important;
   border-color: #191f29 !important;
   color: #3d4c65 !important
 }
@@ -5586,7 +5586,7 @@ ol.nativeList {
 }
 .containerContent hr, .htmlContent hr, .messageBody > .messageText hr, .messageSignature > div hr, .redactor-layer hr {
   border: 0;
-  border-top: 1px solid #191f29;
+  border-top: 1px solid #000;
   height: 0
 }
 .separatorLeft::before {
@@ -5966,7 +5966,7 @@ a.externalURL::after {
   top: -11px
 }
 html:not(.touch) .gridListItem:hover {
-  background-color: #1c222f
+  background-color: #000
 }
 .gridListItemMessage {
   column-gap: 10px;
@@ -6084,8 +6084,8 @@ html, body {
   }
 }
 body {
-  background-color: #0f131a;
-  color: #7a8da6;
+  background-color: #000;
+  color: #fff;
   font-family: "Roboto", Helvetica, Verdana, sans-serif;
   position: relative;
   width: 100%;
@@ -6206,8 +6206,8 @@ html.iOS select {
   margin-left: 5px
 }
 .pageFooterCopyright {
-  background-color: #1d2430;
-  color: #566476;
+  background-color: #000;
+  color: #00ff00;
   text-align: center
 }
 @media screen and (min-width:769px), print {
@@ -6235,15 +6235,15 @@ html.iOS select {
   margin-top: 10px
 }
 .pageFooterCopyright a {
-  color: #7a8da6
+  color: #000
 }
 .pageFooterCopyright a:hover {
-  color: #c50508;
+  color: #000;
   text-decoration: underline
 }
 .pageHeaderContainer {
-  background-color: #c60000;
-  color: #fbe0e0;
+  background-color: #000;
+  color: #fff;
   z-index: 100;
   padding-top: 50px
 }
@@ -6299,9 +6299,9 @@ html.iOS select {
   transition: margin-left 0.24s ease-in-out
 }
 .mainMenu .boxMenu > li > a {
-  background: #c60000;
+  background: #000;
   align-items: center;
-  color: #fbe0e0;
+  color: #fff;
   display: flex;
   height: 50px;
   padding: 0 15px
@@ -6363,14 +6363,14 @@ html.iOS select {
   text-decoration: none
 }
 .mainMenu .boxMenu .boxMenuDepth2 li > a {
-  color: #f6b3b3;
+  color: #000;
   display: block;
   padding: 5px 20px 5px 40px;
   white-space: nowrap
 }
 .mainMenu .boxMenu .boxMenuDepth2 li.active > a, .mainMenu .boxMenu .boxMenuDepth2 li > a:hover {
-  background-color: #d42222;
-  color: #fbe0e0;
+  background-color: #000;
+  color: #00ff00;
   text-decoration: none
 }
 .mainMenu .mainMenuShowPrevious, .mainMenu .mainMenuShowNext {
@@ -6502,9 +6502,9 @@ html.iOS select {
 }
 .pageHeaderSearchInputContainer .pageHeaderSearchType > .button {
   align-items: center;
-  background-color: #c60000;
+  background-color: #000;
   border-radius: 0 0 0 2px;
-  color: #fbe0e0;
+  color: #fff;
   display: flex;
   max-width: 200px;
   min-width: 140px;
@@ -6576,7 +6576,7 @@ html.iOS select {
 @media screen and (max-width:1024px) {
   .pageHeader {
     align-items: center;
-    background-color: #c60000;
+    background-color: #000;
     column-gap: 10px;
     display: grid;
     grid-template-areas: "logo search user menu";
@@ -6706,8 +6706,8 @@ html.iOS select {
 }
 @media screen and (min-width:769px), print {
   .pageNavigation {
-    background-color: #191f29;
-    color: #566476;
+    background-color: #000;
+    color: #fff;
     flex: 0 0 auto;
     padding: 10px 0
   }
@@ -6721,10 +6721,10 @@ html.iOS select {
     color: inherit
   }
   .pageNavigation a {
-    color: #7a8da6
+    color: #000
   }
   .pageNavigation a:hover {
-    color: #566476
+    color: #000
   }
   .boxesHeaderBoxes + .pageNavigation {
     margin-top: 1px
@@ -6829,7 +6829,7 @@ html.iOS select {
     content: " ("attr(href) ")"
   }
   .messageList, .messageList > li:not(:first-child) {
-    border-top: 1px solid #171d26
+    border-top: 1px solid #000
   }
   .messageList > li {
     padding-top: 20px
@@ -6859,7 +6859,7 @@ html.iOS select {
   clear: left
 }
 .sidebar .boxContainer > div:not(.box), .sidebar .boxContainer > fieldset, .sidebar .boxContainer > section:not(.box) {
-  background-color: #1d2430
+  background-color: #000
 }
 @media screen and (min-width:769px), print {
   .sidebar .boxContainer > div:not(.box), .sidebar .boxContainer > fieldset, .sidebar .boxContainer > section:not(.box) {
@@ -6875,7 +6875,7 @@ html.iOS select {
   margin-top: 30px
 }
 .sidebar .boxContainer section:not(.box) > h1, .sidebar .boxContainer fieldset > legend {
-  color: #c60000;
+  color: #000;
   border-bottom-width: 0;
   margin-bottom: 15px;
   padding: 0;
@@ -7018,8 +7018,8 @@ input.multifactorBackupCode {
   overflow: auto
 }
 .aclList:not(:empty) {
-  border-bottom: 1px solid #171d26;
-  border-top: 1px solid #171d26
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000
 }
 .aclList > li {
   align-items: center;
@@ -7030,7 +7030,7 @@ input.multifactorBackupCode {
   cursor: pointer
 }
 .aclList > li.active {
-  background-color: #1c222f
+  background-color: #000
 }
 .aclList > li > .icon {
   flex: 0 0 36px;
@@ -7210,7 +7210,7 @@ input.multifactorBackupCode {
   text-decoration: underline
 }
 .error {
-  background-color: #1a202b;
+  background-color: #000;
   border-color: #171c26;
   color: #e72a2a
 }
@@ -7221,7 +7221,7 @@ input.multifactorBackupCode {
   color: #e72a2a
 }
 .info {
-  background-color: #1a202b;
+  background-color: #000;
   border-color: #171c26;
   color: #1f94f4
 }
@@ -7232,7 +7232,7 @@ input.multifactorBackupCode {
   color: #1f94f4
 }
 .success {
-  background-color: #1a202b;
+  background-color: #000;
   border-color: #171c26;
   color: #15b55d
 }
@@ -7243,7 +7243,7 @@ input.multifactorBackupCode {
   color: #15b55d
 }
 .warning {
-  background-color: #1a202b;
+  background-color: #000;
   border-color: #171c26;
   color: #ffa21f
 }
@@ -7284,11 +7284,11 @@ input.multifactorBackupCode {
   color: #e72a2a
 }
 .innerSuccess {
-  background-color: #1a202b;
+  background-color: #000;
   color: #15b55d
 }
 .innerSuccess::before {
-  border-bottom-color: #1a202b
+  border-bottom-color: #000
 }
 .innerSuccess a {
   color: #37e887
@@ -7297,11 +7297,11 @@ input.multifactorBackupCode {
   color: #15b55d
 }
 .innerWarning {
-  background-color: #1a202b;
+  background-color: #000;
   color: #ffa21f
 }
 .innerWarning::before {
-  border-bottom-color: #1a202b
+  border-bottom-color: #000
 }
 .innerWarning a {
   color: #ffc574
@@ -7366,11 +7366,11 @@ input.multifactorBackupCode {
   margin-top: 0
 }
 .innerInfo {
-  background-color: #1a202b;
-  color: #1f94f4
+  background-color: #000;
+  color: #fff
 }
 .innerInfo::before {
-  border-bottom-color: #1a202b
+  border-bottom-color: #000
 }
 .innerInfo a {
   color: #46a7f6
@@ -7705,7 +7705,7 @@ html[dir="rtl"] .articleNavigation .nextArticleButton > a::before {
 }
 .attachmentThumbnail .attachmentThumbnailImage {
   align-items: center;
-  background-color: #333;
+  background-color: #000;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -8006,7 +8006,7 @@ html[dir="rtl"] .articleNavigation .nextArticleButton > a::before {
 .badge, a.badge {
   background-color: #7a8da6;
   border-radius: 2px;
-  color: #0f131a;
+  color: #000;
   display: inline-block;
   line-height: 1.28;
   padding: 2px 6px;
@@ -8068,7 +8068,7 @@ html[dir="rtl"] .articleNavigation .nextArticleButton > a::before {
   color: #fff
 }
 a.badge:hover {
-  color: #0f131a;
+  color: #000;
   text-decoration: none
 }
 a.badge:hover.black {
@@ -8198,11 +8198,11 @@ button small, input[type="button"] small, input[type="reset"] small, input[type=
   color: inherit
 }
 button.buttonPrimary, input[type="button"].buttonPrimary, input[type="submit"], .button.buttonPrimary, a.button.buttonPrimary {
-  background-color: #17c465;
+  background-color: #00ff00;
   color: white
 }
 button.buttonPrimary.active, input[type="button"].buttonPrimary.active, input[type="submit"].active, .button.buttonPrimary.active, a.button.buttonPrimary.active {
-  background-color: #13a655;
+  background-color: #000;
   color: white
 }
 html:not(.touch) button:hover, html:not(.touch) input[type="button"]:hover, html:not(.touch) input[type="reset"]:hover, html:not(.touch) input[type="submit"]:hover, html:not(.touch) .button:hover, html:not(.touch) a.button:hover {
@@ -8211,7 +8211,7 @@ html:not(.touch) button:hover, html:not(.touch) input[type="button"]:hover, html
   text-decoration: none
 }
 html:not(.touch) button.buttonPrimary:hover, html:not(.touch) input[type="button"].buttonPrimary:hover, html:not(.touch) input[type="submit"]:hover, html:not(.touch) .button.buttonPrimary:hover, html:not(.touch) a.button.buttonPrimary:hover {
-  background-color: #13a655;
+  background-color: #000;
   color: white
 }
 button:disabled, button.disabled, input[type="button"]:disabled, input[type="button"].disabled, input[type="reset"]:disabled, input[type="reset"].disabled, input[type="submit"]:disabled, input[type="submit"].disabled, .button:disabled, .button.disabled, a.button:disabled, a.button.disabled {
@@ -8403,7 +8403,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
   display: inline-block
 }
 .colorPreview > div {
-  border: 2px solid #0f131a;
+  border: 2px solid #000;
   cursor: pointer;
   display: block;
   height: 60px;
@@ -8585,7 +8585,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
   }
 }
 .commentListAddComment.collapsed {
-  background-color: #1d2430;
+  background-color: #000;
   cursor: pointer;
   overflow: hidden;
   padding: 10px 20px;
@@ -8708,7 +8708,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
   margin: 0 0 -20px -20px
 }
 .contentItem {
-  background-color: #0f131a;
+  background-color: #000;
   border-radius: 3px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: flex;
@@ -8760,7 +8760,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
   position: relative
 }
 .contentItemContentTruncate::after {
-  background-image: linear-gradient(to top, #0f131a, rgba(15, 19, 26, 0));
+  background-image: linear-gradient(to top, #000, rgba(15, 19, 26, 0));
   bottom: 0;
   content: "";
   height: 30px;
@@ -8873,7 +8873,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
 }
 .contentItemMeta {
   align-items: center;
-  border-top: 1px solid #191f29;
+  border-top: 1px solid #000;
   color: #566476;
   display: flex;
   flex: 0 auto;
@@ -8974,7 +8974,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
   min-width: 200px
 }
 .datePicker {
-  background-color: #1b212d;
+  background-color: #000;
   border-radius: 2px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   color: #566476;
@@ -9061,7 +9061,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
   }
 }
 .datePicker > footer {
-  border-top: 1px solid #171d26;
+  border-top: 1px solid #000;
   display: none;
   padding: 10px;
   position: relative;
@@ -9190,7 +9190,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
   color: rgba(255, 255, 255, 0.85)
 }
 .dialogContainer > .dialogContent {
-  background-color: #0f131a;
+  background-color: #000;
   overflow: auto
 }
 @media screen and (max-width:768px) {
@@ -9227,7 +9227,7 @@ button:disabled, button.disabled, input[type="button"]:disabled, input[type="but
   margin-left: 0 !important
 }
 .dialogContainer > .dialogContent .dialogFormSubmit {
-  background-color: #1d2430;
+  background-color: #000;
   border-top: 1px solid #191f29;
   bottom: 0;
   left: 0;
@@ -9538,7 +9538,7 @@ body[id="tplDiscordBotAdd"] #guildID, body[id="tplDiscordBotAdd"] #clientID {
   }
 }
 .interactiveDropdown {
-  background-color: #0f131a;
+  background-color: #000;
   color: #7a8da6;
   pointer-events: all;
   position: absolute;
@@ -9788,7 +9788,7 @@ body[id="tplDiscordBotAdd"] #guildID, body[id="tplDiscordBotAdd"] #clientID {
   }
 }
 .embeddedContent {
-  background-color: #0f131a;
+  background-color: #000;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 3px;
   margin: 10px 0;
@@ -9880,7 +9880,7 @@ body[id="tplDiscordBotAdd"] #guildID, body[id="tplDiscordBotAdd"] #clientID {
   position: relative
 }
 .embeddedContentDescription::after {
-  background-image: linear-gradient(to top, #0f131a, rgba(15, 19, 26, 0));
+  background-image: linear-gradient(to top, #000, rgba(15, 19, 26, 0));
   content: "";
   left: 0;
   height: 1.572em;
@@ -10341,12 +10341,12 @@ body[id="tplDiscordBotAdd"] #guildID, body[id="tplDiscordBotAdd"] #clientID {
   }
 }
 .inputItemList:focus, .inputItemList:hover {
-  background-color: #222b39;
+  background-color: #000;
   border-color: #151a23;
   color: #7a8da6
 }
 .inputItemList[disabled], .inputItemList.disabled {
-  background-color: #2a3445 !important;
+  background-color: #000 !important;
   border-color: #191f29 !important;
   color: #3d4c65 !important
 }
@@ -10364,7 +10364,7 @@ body[id="tplDiscordBotAdd"] #guildID, body[id="tplDiscordBotAdd"] #clientID {
   margin-right: 5px
 }
 .inputItemList > .item {
-  background-color: #2a3445;
+  background-color: #000;
   border-radius: 2px;
   color: #7085a9;
   cursor: default;
@@ -10482,7 +10482,7 @@ body[id="tplDiscordBotAdd"] #guildID, body[id="tplDiscordBotAdd"] #clientID {
   color: #900 !important
 }
 html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeButton > .button:not(.active):hover {
-  background-color: #2a3445 !important;
+  background-color: #000 !important;
   color: #7085a9 !important
 }
 .sortableList:not(.tabularList) {
@@ -10537,13 +10537,13 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   margin-left: 5px
 }
 .sortablePlaceholder {
-  background-color: #1a202b;
+  background-color: #000;
   border: 1px solid #171c26;
   color: #ffa21f;
   padding: 10px
 }
 .sortablePlaceholder.sortableInvalidTarget {
-  background-color: #1a202b;
+  background-color: #000;
   border-color: #171c26;
   color: #e72a2a
 }
@@ -10637,7 +10637,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   cursor: pointer
 }
 .mediaManagerMediaList > li.uploadFailed > .mediaInformation {
-  background-color: #1a202b;
+  background-color: #000;
   color: #e72a2a
 }
 .mediaManagerMediaList > li.uploadFailed > .mediaInformation .mediaTitle {
@@ -11162,7 +11162,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
 }
 .messageContent.loading > .messageContentLoadingOverlay {
   align-items: center;
-  background-color: #0f131a;
+  background-color: #000;
   bottom: -1px;
   display: flex;
   justify-content: center;
@@ -11540,6 +11540,9 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
     overflow: auto
   }
 }
+.bg-black {
+	background-color: black
+}
 .editHistoryDiff > .table {
   width: 100%
 }
@@ -11744,7 +11747,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   right: -6px
 }
 .messageGroupList .columnAvatar .myAvatar > img {
-  border: 1px solid #0f131a;
+  border: 1px solid #000;
   box-sizing: content-box
 }
 .messageGroupList .columnSubject {
@@ -12033,7 +12036,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   top: -12px
 }
 .messageUserConsent {
-  background-color: #0f131a;
+  background-color: #000;
   border-radius: 2px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin: 10px 0;
@@ -12607,7 +12610,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
 .popover {
   animation: wcfPopoverOut 0.3s;
   animation-fill-mode: forwards;
-  background-color: #0f131a;
+  background-color: #000;
   border-radius: 2px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   position: absolute;
@@ -12634,7 +12637,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   }
 }
 .popoverContent {
-  background-color: #0f131a;
+  background-color: #000;
   border-radius: 3px;
   color: #7a8da6;
   padding: 15px
@@ -12662,7 +12665,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
 .reactionPopover {
   animation: wcfPopoverOut 0.3s;
   animation-fill-mode: forwards;
-  background-color: #0f131a;
+  background-color: #000;
   border-radius: 2px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   overflow: hidden;
@@ -12728,7 +12731,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   white-space: nowrap
 }
 .reactionPopoverContent {
-  background-color: #0f131a;
+  background-color: #000;
   border-radius: 3px;
   color: #7a8da6
 }
@@ -12761,14 +12764,14 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
     transition: opacity 0.12s linear
   }
   .reactionPopoverContent::after {
-    background-image: linear-gradient(to bottom, rgba(15, 19, 26, 0), #0f131a);
+    background-image: linear-gradient(to bottom, rgba(15, 19, 26, 0), #000);
     bottom: 0
   }
   .reactionPopoverContent.overflowBottom::after {
     opacity: 1
   }
   .reactionPopoverContent::before {
-    background-image: linear-gradient(to top, rgba(15, 19, 26, 0), #0f131a);
+    background-image: linear-gradient(to top, rgba(15, 19, 26, 0), #000);
     top: 0
   }
   .reactionPopoverContent.overflowTop::before {
@@ -12869,7 +12872,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   margin-top: 20px
 }
 .redactor-box {
-  background-color: #0f131a;
+  background-color: #000;
   position: relative
 }
 .redactor-box:not(:first-child):not(.redactorBoxFullscreen) {
@@ -13122,7 +13125,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
 }
 .redactorDropArea {
   align-items: center;
-  background-color: #1a202b;
+  background-color: #000;
   border: 5px dashed currentColor;
   bottom: 0;
   color: #1f94f4;
@@ -13149,7 +13152,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   content: attr(data-drop-here)
 }
 .redactorDropArea.active {
-  background-color: #1a202b;
+  background-color: #000;
   color: #15b55d
 }
 .redactorDropArea.active::before {
@@ -13331,7 +13334,7 @@ html.touch .wcfLikeButton > .button:not(.active):hover, html.touch .wcfDislikeBu
   display: none
 }
 .redactorAutosaveRestored {
-  background-color: #0f131a;
+  background-color: #000;
   border-top: 1px solid #191f29;
   bottom: 1px;
   display: flex;
@@ -13829,11 +13832,11 @@ html:not(.touch) .messageShareButtons .jsShareXing:hover {
   color: #566476
 }
 .tabMenuOverlayLeft {
-  background: linear-gradient(to left, rgba(15, 19, 26, 0) 0%, #0f131a 50%);
+  background: linear-gradient(to left, rgba(15, 19, 26, 0) 0%, #000 50%);
   left: 0
 }
 .tabMenuOverlayRight {
-  background: linear-gradient(to right, rgba(15, 19, 26, 0) 0%, #0f131a 50%);
+  background: linear-gradient(to right, rgba(15, 19, 26, 0) 0%, #000 50%);
   justify-content: flex-end;
   right: 0
 }
@@ -13850,7 +13853,7 @@ html:not(.touch) .messageShareButtons .jsShareXing:hover {
   display: none
 }
 .messageTabMenu > .messageTabMenuContent.active {
-  background-color: #0f131a;
+  background-color: #000;
   display: block;
   margin-top: 0
 }
@@ -13921,7 +13924,7 @@ html:not(.touch) .messageShareButtons .jsShareXing:hover {
   width: 100%
 }
 .messageTabMenu > nav.tabMenu > ul, .messageTabMenuNavigation > ul {
-  background-color: #0f131a;
+  background-color: #000;
   border: 1px solid #191f29;
   border-top-width: 0;
   display: flex;
@@ -13952,7 +13955,7 @@ html:not(.touch) .messageShareButtons .jsShareXing:hover {
   position: relative
 }
 .messageTabMenu > nav.tabMenu > ul > li.active > a::after, .messageTabMenuNavigation > ul > li.active > a::after {
-  border-bottom: 1px solid #0f131a;
+  border-bottom: 1px solid #000;
   bottom: -1px;
   content: "";
   display: block;
@@ -14271,10 +14274,10 @@ tr.sortableNode {
   display: inline-block
 }
 .htmlContent table tbody:first-child > tr:first-child > td, .messageBody > .messageText table tbody:first-child > tr:first-child > td, .messageSignature > div table tbody:first-child > tr:first-child > td, .redactor-layer table tbody:first-child > tr:first-child > td, .table tbody:first-child > tr:first-child > td {
-  border-top: 1px solid #171d26
+  border-top: 1px solid #000
 }
 .tableOfContentsContainer {
-  border: 1px solid #191f29;
+  border: 1px solid #000;
   padding: 10px 20px
 }
 .tableOfContentsContainer.open .jsTableOfContentsShow {
@@ -14475,7 +14478,7 @@ tr.sortableNode {
   margin-right: 5px
 }
 .unfurlUrlCard {
-  background-color: #0f131a;
+  background-color: #000;
   border-radius: 3px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   color: #7a8da6;
@@ -14636,7 +14639,7 @@ tr.sortableNode {
 }
 @media screen and (min-width:769px), print {
   .ignoredUserMessage {
-    background-color: #1a202b !important;
+    background-color: #000 !important;
     border-left: 5px solid #171c26 !important;
     color: #1f94f4 !important;
     cursor: pointer !important
@@ -14653,7 +14656,7 @@ tr.sortableNode {
     padding-top: 30px
   }
   .ignoredUserMessage::before {
-    background-color: #1a202b !important;
+    background-color: #000 !important;
     border-left: 5px solid #171c26 !important;
     color: #1f94f4 !important;
     content: attr(data-ignored-user-message);
@@ -15652,11 +15655,11 @@ html.touch .userMenuItem .userMenuItemMarkAsRead {
   border-bottom-color: #1d2430
 }
 .innerError {
-  background-color: #1a202b;
+  background-color: #000;
   color: #e72a2a
 }
 .innerError::before {
-  border-bottom-color: #1a202b
+  border-bottom-color: #000
 }
 .interactiveDropdownHeader .icon {
   color: inherit
@@ -16145,7 +16148,7 @@ html.touch .userMenuItem .userMenuItemMarkAsRead {
 }
 @media screen and (min-width:769px), print {
   .wbbAnnouncementIcon, .wbbStickyIcon, .wbbMovedIcon {
-    border: 1px solid #0f131a;
+    border: 1px solid #000;
     box-sizing: content-box;
     padding: 4px;
     right: -8px;
@@ -16167,7 +16170,7 @@ html.touch .userMenuItem .userMenuItemMarkAsRead {
 }
 .wbbStickyIcon, .wbbMovedIcon {
   background-color: #7a8da6;
-  color: #0f131a
+  color: #000
 }
 .wbbMovedIcon::before {
   left: 1px;
@@ -25539,7 +25542,7 @@ a.externalURL::after {
   margin-left: 20px
 }
 .workplaceTaskBox {
-  background-color: #0f131a;
+  background-color: #000;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: inline-block;
   margin: 20px 0;
@@ -27733,7 +27736,7 @@ b, strong {
   position: relative
 }
 .boxesTop .boxMenuDepth1::before, .boxesBottom .boxMenuDepth1::before, .boxesFooter .boxMenuDepth1::before {
-  border-left: 1px dotted #0f131a;
+  border-left: 1px dotted #000;
   content: "";
   height: 100%;
   left: 1px;
@@ -27746,7 +27749,7 @@ b, strong {
   position: relative
 }
 .boxesTop .boxMenuDepth1 .boxMenuLink::before, .boxesBottom .boxMenuDepth1 .boxMenuLink::before, .boxesFooter .boxMenuDepth1 .boxMenuLink::before {
-  border-top: 1px dotted #0f131a;
+  border-top: 1px dotted #000;
   content: "";
   height: 50%;
   left: 2px;
@@ -27827,10 +27830,10 @@ b, strong {
   text-decoration: none
 }
 .boxesFooter .boxMenuDepth1::before {
-  border-left: 1px dotted #0f131a
+  border-left: 1px dotted #000
 }
 .boxesFooter .boxMenuDepth1 .boxMenuLink::before {
-  border-top: 1px dotted #0f131a
+  border-top: 1px dotted #000
 }
 @media screen and (max-width:1024px) {
   .boxesSidebarLeft.boxesSidebarLeftHasMenu::before {
@@ -28706,7 +28709,7 @@ b, strong {
     margin: 0
   }
   .containerList > li .buttonGroupNavigation > .buttonList li.dropdownDivider + li {
-    border-top: 1px dashed #0f131a
+    border-top: 1px dashed #000
   }
   .containerList > li .buttonGroupNavigation > .buttonList li > a, .containerList > li .buttonGroupNavigation > .buttonList li > span {
     padding: 8px 10px
@@ -29113,9 +29116,9 @@ input[type="checkbox"], input[type="radio"] {
   max-width: 100%
 }
 .footerLegal {
-  background: #1d2430;
-  border-top: 1px solid #171d26;
-  border-bottom: 1px solid #171d26;
+  background: #000;
+  border-top: 0px solid #171d26;
+  border-bottom: 0px solid #171d26;
   color: #566476;
   padding: 10px;
   text-align: center
@@ -29126,10 +29129,10 @@ input[type="checkbox"], input[type="radio"] {
   }
 }
 .footerLegal a {
-  color: #7a8da6
+  color: #00f00
 }
 .footerLegal a:hover {
-  color: #c50508
+  color: #00ff00
 }
 .footerLegalLinks {
   margin-top: 5px
@@ -29161,7 +29164,7 @@ input[type="checkbox"], input[type="radio"] {
 .pageFooterCredits {
   border-top: 1px solid #171d26;
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.02);
-  color: #566476;
+  color: #00ff00;
   font-size: var(--fontSizeSmallest);
   padding: 10px
 }
@@ -30455,7 +30458,7 @@ table td.columnTitle, .table td.columnTitle, .htmlContent table td.columnTitle, 
   margin: 0
 }
 .dropdownMenu li.dropdownDivider + li {
-  border-top: 1px dashed #0f131a
+  border-top: 1px dashed #000
 }
 .dropdownMenu li > a, .dropdownMenu li > span {
   padding: 8px 10px
@@ -30592,7 +30595,7 @@ table td.columnTitle, .table td.columnTitle, .htmlContent table td.columnTitle, 
 .messageList > .anchorFixedHeader:not(.disableAnchorFixedHeader):target::before {
   border-radius: 3px;
   border-top: 20px solid transparent;
-  box-shadow: 0 -1px 0 0 #0f131a;
+  box-shadow: 0 -1px 0 0 #000;
   content: "";
   left: 0;
   position: absolute;
@@ -30928,7 +30931,7 @@ table td.columnTitle, .table td.columnTitle, .htmlContent table td.columnTitle, 
     margin: 0
   }
   .messageFooterGroup > .messageFooterButtons.buttonList.open li.dropdownDivider + li {
-    border-top: 1px dashed #0f131a
+    border-top: 1px dashed #000
   }
   .messageFooterGroup > .messageFooterButtons.buttonList.open li > a, .messageFooterGroup > .messageFooterButtons.buttonList.open li > span {
     padding: 8px 10px
@@ -31532,7 +31535,7 @@ table td.columnTitle, .table td.columnTitle, .htmlContent table td.columnTitle, 
 .popover {
   background: var(--contentBackgroundLM3);
   border-radius: 3px;
-  box-shadow: 0 0 3px 1px #0f131a
+  box-shadow: 0 0 3px 1px #000
 }
 .popoverContent {
   background: var(--contentBackgroundLM3v);
@@ -31720,12 +31723,12 @@ table td.columnTitle, .table td.columnTitle, .htmlContent table td.columnTitle, 
 @media screen and (max-width:768px) {
   .tabMenu > ul > li.active > a, .menu > ul > li.active > a {
     border-radius: 4px 4px 0 0;
-    box-shadow: 0 -4px 0 0 #0f131a;
+    box-shadow: 0 -4px 0 0 #000;
     position: relative
   }
   .tabMenu > ul > li.active > a::before, .tabMenu > ul > li.active > a::after, .menu > ul > li.active > a::before, .menu > ul > li.active > a::after {
     background: var(--contentBackgroundLM2);
-    box-shadow: 0 -3px 0 0 #0f131a;
+    box-shadow: 0 -3px 0 0 #000;
     content: "";
     height: 10px;
     position: absolute;
@@ -32828,12 +32831,12 @@ html:not(.touch) .userMenuItem:hover .userMenuItemUnread::before {
 @media screen and (max-width:768px) {
   .userProfileMenuList > li.active {
     border-radius: 4px 4px 0 0;
-    box-shadow: 0 -4px 0 0 #0f131a;
+    box-shadow: 0 -4px 0 0 #000;
     position: relative
   }
   .userProfileMenuList > li.active::before, .userProfileMenuList > li.active::after {
     background: var(--contentBackgroundLM1);
-    box-shadow: 0 -3px 0 0 #0f131a;
+    box-shadow: 0 -3px 0 0 #000;
     content: "";
     height: 10px;
     position: absolute;
@@ -34211,7 +34214,7 @@ woltlab-quote:not(.redactorCalcHeight)::before {
   width: 16px
 }
 .contentUser #blogList {
-  background: #0f131a;
+  background: #000;
   border-radius: 0;
   padding: 10px 0 0 0
 }
@@ -36333,8 +36336,8 @@ woltlab-quote:not(.redactorCalcHeight)::before {
   margin: 0 5px 10px 0
 }
 .contentImageAdd #thumbnailList > li.active, .contentImageEdit #thumbnailList > li.active {
-  background: #0f131a;
-  border: 1px solid #0f131a
+  background: #000;
+  border: 1px solid #000
 }
 .contentImageAdd #imageContainer, .contentImageEdit #imageContainer {
   background: none;
@@ -37510,7 +37513,7 @@ article.wbbPost[data-user-id="1"] > div.messageContent > footer.messageFooter:be
   }
 }
 .messageTableOverflow, .messageBody > .messageText table tr td {
-  border: 1px solid #0f131a
+  border: 1px solid #000
 }
 .userInformation > .containerHeadline > h3 > span.userRankImage {
   display: none
@@ -37636,4 +37639,5 @@ article.wbbPost[data-user-id="1"] > div.messageContent > footer.messageFooter:be
 }
 .wbbBoardIcon35.fa-folder-open:before, .wbbBoardIcon35.fa-folder:before {
   content: 
-} /* CSS Document */
+} /* CSS Document */.bg-black {
+}
