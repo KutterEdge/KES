@@ -1280,14 +1280,14 @@ a:focus, a:hover {
 
 .footer-bottom {
   text-align: center;
-  background-color: #1b1b1b;
+  background-color: #000;
   border-top: 1px solid #2c2c2c;
   padding: 30px 0;
 }
 .footer-bottom h5 {
   font-size: 12px;
   line-height: 1;
-  color: #888888;
+  color: #000;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
