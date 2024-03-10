@@ -318,6 +318,7 @@ ol {
 	display: table;
 	width: 100%;
 	align-content: center;
+    background-position: center;
 }
 
 .hero-slider .hs-text {
@@ -575,8 +576,10 @@ ol {
 ------------------------*/
 
 .tournaments-section {
-	background-image: url("../img/pattern.png");
-	background-repeat: repeat;
+	background-image: url("../img/review-bg-2.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .tournament-title {
@@ -849,10 +852,10 @@ ol {
 }
 
 .copyright {
-	float: left;
+	text-align: center;
 	margin-bottom: 0;
 	font-weight: 500;
-	color: #aeaeae;
+	color: #00ff00;
 }
 
 /*------------------
