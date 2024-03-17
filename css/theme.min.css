@@ -53,7 +53,7 @@
   --bs-body-font-size: 1.2rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #202020;
+  --bs-body-color: #202020;<img src="img/logo.png">     
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -162,7 +162,7 @@ strong {
   font-weight: bolder
 }
 .small, small {
-  font-size: .875em
+  font-size: .875em;
 }
 a {
   color: var(--bs-link-color);
@@ -1322,4 +1322,6 @@ html {
     -webkit-transform: translate3d(100px, 0, 0) scale(.6);
     transform: translate3d(100px, 0, 0) scale(.6)
   }
+}.text-lime {
+    color: lime;
 }
