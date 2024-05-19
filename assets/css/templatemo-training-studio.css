@@ -616,15 +616,12 @@ banner
 }
 
 .video-overlay {
-    position: absolute;
+    position: center;
     background-color: rgba(0, 0, 0, 0.8);
     top: 0;
     left: 0;
     bottom: 7px;
     width: 100%;
-    
-  background-image: url(../images/space.jpg);
-  background-size: cover;
 }
 
 .main-banner .caption {
