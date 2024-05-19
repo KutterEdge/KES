@@ -202,7 +202,7 @@ header
 */
 
 .background-header {
-  background: rgba(0, 0, 0, 0.99) !important;
+  background: rgba(0, 0, 0, 0) !important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -617,11 +617,14 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(35,45,57,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     top: 0;
     left: 0;
     bottom: 7px;
     width: 100%;
+    
+  background-image: url(../images/space.jpg);
+  background-size: cover;
 }
 
 .main-banner .caption {
