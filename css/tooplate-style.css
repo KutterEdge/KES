@@ -139,19 +139,19 @@ p:last-child {
 .tm-banner-text-container {
   position: relative;
   z-index: 1000;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
   text-align: center;
   max-width: 520px;
 }
 
 .tm-banner-title {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 300;
   margin-bottom: 40px;
 }
 
 .tm-banner-subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 300;
   max-width: 500px;
 }
