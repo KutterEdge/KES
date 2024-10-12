@@ -138,7 +138,7 @@ p {
 }
 
 a {
-     color: #ff0000;
+     color: #0000ff;
      text-decoration: none;
      outline: none !important;
 }
@@ -224,9 +224,9 @@ button {
 
 .header_section{
     width: 100%;
-    background-image: url(../images/IMG_0523.jpg);
+    background-image: url(../images/BANNER2.jpg);
     filter: blur(100px);
-    -webkit-filter: blur(5px);
+    -webkit-filter: blur(0px);
     height: 75%;
     position: absolute;
     background-position: center;
@@ -241,7 +241,7 @@ button {
     float: left;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #0000ff;
+    color: #ffffff;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -417,7 +417,8 @@ button {
     width: 100%;
     float: left;
     font-size: 15px;
-    color: #00ff00;
+    font-style: italic;
+    color: #000000;
     text-align: center;
     margin-left: 0px;
     margin-top: 10px;
@@ -464,7 +465,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ffffff;
+    color: #000000;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -472,7 +473,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #0000ff;
+    color: #000000;
     margin-left: 0px;
     padding-top: 40px;
 }
