@@ -654,6 +654,7 @@ pre code {
 }
 
 .row {
+    background-color: #fff;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -3442,19 +3443,20 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-    color: #f8f9fa;
-    border-color: #f8f9fa
+    color: #ffffff;
+    background-color: #6441a5;
+    border-color: #000000;
 }
 
 .btn-outline-light:hover {
-    color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #0080ff
 }
 
 .btn-outline-light.focus,
 .btn-outline-light:focus {
-    box-shadow: 0 0 0 .2rem rgba(248, 249, 250, .5)
+    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0.5)
 }
 
 .btn-outline-light.disabled,
@@ -3479,7 +3481,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-dark {
     color: #343a40;
-    border-color: #343a40
+    border-color: #000000
 }
 
 .btn-outline-dark:hover {
@@ -11207,7 +11209,7 @@ a.text-primary:hover {
 }
 
 .text-secondary {
-    color: #6c757d !important
+    color: #fff !important
 }
 
 a.text-secondary:focus,
