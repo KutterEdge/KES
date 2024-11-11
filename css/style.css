@@ -7,7 +7,7 @@
 body {
   font-family: "PT Mono", monospace;
   line-height: 1.6;
-  background: #ccc;
+  background: #fff;
   background-repeat: space;
   background-repeat: repeat;
   overflow-x: hidden;
@@ -803,11 +803,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .wave {
   margin-bottom: 10px; }
   .wave svg {
-    width: 90px;
-    height: 20px; }
+    width: 100px;
+    height: 50px; }
   .wave path {
-    stroke: #0389ff;
-    stroke-width: 2px;
+    stroke: #ff0000;
+    stroke-width: 5px;
     stroke-linecap: round;
     fill: none; }
 
