@@ -7,8 +7,7 @@
 body {
   font-family: "PT Mono", monospace;
   line-height: 1.6;
-  background: #000;
-  background-image: url("../images/map.png");
+  background: #ccc;
   background-repeat: space;
   background-repeat: repeat;
   overflow-x: hidden;
@@ -1072,7 +1071,7 @@ figure.dotted-bg {
     border-radius: 50%;
     width: 35px;
     height: 35px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(0, 0, 0);
     bottom: -0px;
     right: -0px;
     z-index: -1; }
@@ -1154,7 +1153,7 @@ figure.dotted-bg {
 #about-section {
   margin-top: 7rem; }
   #about-section .container {
-    background: #ffffff;
+    background: #000000;
     
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1599,7 +1598,7 @@ figure.dotted-bg {
     top: 0; }
     .owl-single .owl-nav .owl-prev span, .owl-single .owl-nav .owl-next span {
       display: block;
-      background: #ffffff;
+      background: #000000;
       padding: 15px; }
   .owl-single .owl-nav .owl-prev {
     left: -30px; }
