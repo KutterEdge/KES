@@ -272,7 +272,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #0071f8;
+  background: #f80000;
   border-radius: 50%;
 }
 
@@ -285,14 +285,14 @@ Header Style
 */
 
 .background-header {
-  background-color: #0071f8 !important;
+  background-color: #f80000 !important;
   border-radius: 0px 0px 25px 25px;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
   left: 0;
   right: 0;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0)!important;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -585,7 +585,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ee626b!important;
+    color: #ff0011!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -727,7 +727,7 @@ Banner Style
 }
 
 .main-banner .caption form button:hover {
-  background-color: #0071f8;
+  background-color: #0070f800;
 }
 
 .main-banner .right-image {
@@ -743,7 +743,7 @@ Banner Style
   right: 20px;
   top: 20px;
   border-radius: 25px;
-  background-color: #008af8;
+  background-color: #0088f800;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1488,7 +1488,7 @@ Single Page Style
 }
 
 .tabs-content .nav-tabs .nav-link.active {
-  color: #0071f8;
+  color: #ff0000;
 }
 
 .tabs-content .tab-content {
@@ -1589,7 +1589,7 @@ Contact PAge Style
 }
 
 .contact-page .right-content form button:hover {
-  background-color: #0071f8;
+  background-color: #0070f800;
 }
 
 /* 
