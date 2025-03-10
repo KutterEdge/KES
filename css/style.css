@@ -158,7 +158,7 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
-        background: #FFFFFF;
+        background: #ffffff00;
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -185,7 +185,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #FFFFFF;
+        background: #ffffff52;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
@@ -221,7 +221,6 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
     z-index: 1;
 }
 
@@ -473,7 +472,7 @@ h6,
 }
 
 .bg-header {
-    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, 0), rgba(9, 30, 62, .7)), url(../img/BANNER2.jpg) center center no-repeat;
     background-size: cover;
 }
 
