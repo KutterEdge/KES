@@ -170,7 +170,7 @@
     height: 100%;
     top: 0;
     right: -1px;
-    background: var(--bs-primary);
+    background: var(--bs-dark);
     transform: skew(18deg);
 }
 
@@ -183,7 +183,7 @@
         height: 45px;
         top: 0;
         right: 0;
-        background: var(--bs-dark);
+        background-color: #0C1844;
         z-index: -1;
     }
 
@@ -198,7 +198,7 @@
     }
 
     .navbar {
-        justify-content: space-between;
+        justify-content: left;
     }
 
     .header-top .container {
@@ -207,6 +207,7 @@
 
     .navbar-brand {
         display: none;
+        background-color: #0C1844;
     }
 
     .navbar-brand-2 {
@@ -327,7 +328,7 @@
         margin-top: 20px;
         padding-bottom: 20px;
         margin-left: 50px;
-        background: var(--bs-light);
+        background: var(--bs-dark);
     }
 
     .navbar .navbar-nav .nav-btn {
@@ -1340,8 +1341,8 @@
 
 /*** copyright Start ***/
 .copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: var(--bs-dark);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    background-image: url(../img/footer-bg.jpg);
 }
 /*** copyright end ***/
 
