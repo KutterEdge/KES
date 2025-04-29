@@ -473,7 +473,7 @@
 
 
 .hero-bg-half-2 {
-    background-image: url(../img/logo\ for\ Kutter\ Edge.png);
+    background-image: url(../img/logo1.png);
     clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(15%);
     transform: scale(100% - 50%);
@@ -504,7 +504,7 @@
     }
 
     .hero-bg-half-2 {
-        background-image: url(../img/logo\ for\ Kutter\ Edge.png);
+        background-image: url(../img/logo1.png);
         clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
         filter: grayscale(0%);
         transform: scale(100% - 0%);
