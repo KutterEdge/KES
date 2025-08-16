@@ -473,15 +473,15 @@
 
 
 .hero-bg-half-2 {
-    background-image: url(../img/logo1.png);
+    background-image: url(../img/KES\ logo.png);
     clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(15%);
     transform: scale(100% - 50%);
-    background-position: center right;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: absolute;
-    width: 58%;
+    width: 50%;
     height: 100%;
     right: 0;
     top: 0;
