@@ -9,133 +9,30 @@
             }
         }, 1);
     };
-    spinner(0);
+    spinner();
     
     
     // Initiate the wowjs
     new WOW().init();
 
 
-    // Header carousel
-    $(".header-carousel").owlCarousel({
-        animateOut: 'fadeOut',
-        items: 1,
-        margin: 0,
-        stagePadding: 0,
-        autoplay: true,
-        smartSpeed: 1000,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
-        ],
-    });
-
-
-    // Features Section
-    $(".feature-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        dots: false,
-        loop: true,
-        margin: 25,
-        nav : true,
-        navText : [
-            '<i class="fas fa-chevron-left"></i>',
-            '<i class="fas fa-chevron-right"></i>'
-        ],
-        responsiveClass: true,
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:2
-            },
-            1200:{
-                items:3
-            }
+    // Sticky Navbar
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.sticky-top').addClass('shadow-sm').css('top', '0px');
+        } else {
+            $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
         }
     });
-
-    // Blogs Section
-    $(".blog-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        dots: true,
-        loop: true,
-        margin: 25,
-        nav : false,
-        navText : [
-            '<i class="fas fa-chevron-left"></i>',
-            '<i class="fas fa-chevron-right"></i>'
-        ],
-        responsiveClass: true,
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:2
-            },
-            1200:{
-                items:3
-            }
+    
+    
+    // Back to top button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.back-to-top').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
         }
-    });
-
-    // Features Section
-    $(".testimonial-carousel").owlCarousel({
-        items: 1,
-        autoplay: true,
-        smartSpeed: 1000,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="fas fa-chevron-left"></i>',
-            '<i class="fas fa-chevron-right"></i>'
-        ],
-        responsiveClass: true,
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
-                items:1
-            },
-            992:{
-                items:1
-            }
-        }
-    });
-
-
-
-   // Back to top button
-   $(window).scroll(function () {
-    if ($(this).scrollTop() > 300) {
-        $('.back-to-top').fadeIn('slow');
-    } else {
-        $('.back-to-top').fadeOut('slow');
-    }
     });
     $('.back-to-top').click(function () {
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
@@ -143,5 +40,45 @@
     });
 
 
+    // Facts counter
+    $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 2000
+    });
+
+
+    // Date and time picker
+    $('.date').datetimepicker({
+        format: 'L'
+    });
+    $('.time').datetimepicker({
+        format: 'LT'
+    });
+
+
+    // Header carousel
+    $(".header-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
+        loop: true,
+        nav: false,
+        dots: true,
+        items: 1,
+        dotsData: true,
+    });
+
+
+    // Testimonials carousel
+    $('.testimonial-carousel').owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        loop: true,
+        nav: false,
+        dots: true,
+        items: 1,
+        dotsData: true,
+    });
+
+    
 })(jQuery);
 
