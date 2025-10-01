@@ -322,12 +322,12 @@ h6,
 }
 
 .service-item .service-text {
-    background: var(--light);
+    background: #000000;
     transition: .5s;
 }
 
 .service-item:hover .service-text {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .service-item * {
@@ -335,7 +335,7 @@ h6,
 }
 
 .service-item:hover * {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .service-item .btn {
@@ -344,7 +344,7 @@ h6,
     display: inline-flex;
     align-items: center;
     color: var(--dark);
-    background: #FFFFFF;
+    background: #000000;
     white-space: nowrap;
     overflow: hidden;
     transition: .5s;
@@ -357,7 +357,7 @@ h6,
 
 /*** Project ***/
 .project .nav .nav-link {
-    background: var(--light);
+    background: #000000;
     transition: .5s;
 }
 
@@ -366,7 +366,7 @@ h6,
 }
 
 .project .nav .nav-link.active h3 {
-    color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 
@@ -386,7 +386,7 @@ h6,
     height: 0;
     top: 0;
     left: 0;
-    background: #FFFFFF;
+    background: #000000;
     transition: .5s;
     z-index: -1;
 }
@@ -411,7 +411,7 @@ h6,
 }
 
 .team-item .team-social .btn:hover {
-    color: #FFFFFF;
+    color: #000000;
     background: var(--primary);
 }
 
@@ -487,7 +487,7 @@ h6,
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: var(--primary);
-    background: #FFFFFF;
+    background: #000000;
     border-radius: 40px;
     transition: .5s;
     opacity: 0;
@@ -513,7 +513,7 @@ h6,
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #777777;
+    color: #ffffff;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -535,7 +535,7 @@ h6,
 }
 
 .footer .form-control {
-    border-color: #777777;
+    border-color: #ffffff;
 }
 
 .footer .copyright {
