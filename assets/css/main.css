@@ -1571,7 +1571,7 @@
 	}
 
 	body {
-		background: transparent;
+		background: #000000;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1588,7 +1588,7 @@
 /* Type */
 
 	body {
-		background-color: #020B13;
+		background-color: #000000;
 		color: #c0c2c4;
 	}
 
@@ -2805,10 +2805,11 @@
 			width: 100%;
 			height: 100%;
 			display: block;
-			background-image: url(../../images/wp1991996.jpg);
+			background-image: url(../../images/background11.png);
 			background-size: cover;
 			background-repeat: no-repeat;
-			opacity: 0.35;
+			background-position: center;
+			opacity: .35;
 			z-index: 1;
 		}
 
@@ -2832,7 +2833,7 @@
 			}
 
 		.wrapper.style1 {
-			background-color: #062038;
+			background-color: #000000;
 			color: #c1c7cd;
 		}
 
@@ -3294,9 +3295,11 @@
 			width: 100%;
 			height: 100%;
 			display: block;
-			background-image: url(../../images/background15.png);
+			background-image: url(/images/wp1991996.jpg);
+			background-size: cover;
 			background-size: cover;
 			background-repeat: no-repeat;
+			background-position: center;
 			opacity: 0.35;
 			z-index: 1;
 		}
@@ -3859,8 +3862,8 @@
 	}
 
 	#header {
-		background: rgba(4, 22, 37, 0.75);
-		color: #c0c5c9;
+		background: rgba(0, 0, 0, 0.75);
+		color: #ffffff;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -4130,7 +4133,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/background11.png");
+		background-image: url("");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -4267,7 +4270,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0;
+		padding: 0em 0em 0;
 	}
 
 		#footer > .inner {
@@ -4288,6 +4291,7 @@
 	margin: 2em 0 2em 0;
 	padding: 0;
 	text-align: center;
+	
 }
 
 			#footer .copyright .icons {
