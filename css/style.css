@@ -1044,7 +1044,7 @@
 .explore {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(12, 24, 68, 0.7), rgba(12, 24, 68, 0.7)), url(../img/services-img.jpg);
+    background: linear-gradient(rgba(12, 24, 68, 0.7), rgba(0, 0, 0, 0.7)), url(../img/services-img.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1054,7 +1054,7 @@
 /*** Team Start ***/
 .team {
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.281), rgb(0, 0, 0)), url(../img/page-heading-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.384)), url(../img/);
 
 }
 
@@ -1089,7 +1089,7 @@
 
 .team .team-item:hover .team-img::after {
     height: 100%;
-    background: rgba(255, 245, 225, .5);
+    background: rgba(0, 0, 0, 0);
 }
 
 .team .team-item .team-img .team-icon {
@@ -1114,7 +1114,7 @@
     overflow: hidden;
     text-align: center;
     padding: 25px;
-    border: 1px solid var(--bs-primary);
+    border: 1px solid #ffffff;
     border-top: none;
     transform: matrix(1, -0.1, 0, 1, 0, 0);
     transition: 0.5s;
@@ -1308,7 +1308,7 @@
 
 .footer .footer-item a {
     line-height: 35px;
-    font-size: 16px;
+    font-size: 50px;
     font-weight: 500;
     color: var(--bs-white);
     transition: 0.5s;
@@ -1338,8 +1338,7 @@
 
 /*** copyright Start ***/
 .copyright {
-    border-top: 1px solid rgb(0, 0, 0);
-    background-image: url(../img/footer-bg.jpg);
+    background-image: url(../img/);
 }
 /*** copyright end ***/
 
