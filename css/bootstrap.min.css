@@ -18,7 +18,7 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #ff0000;
+    --bs-primary: #0C1844;
     --bs-secondary: #6c757d;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -49,10 +49,10 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #878d97;
-    background-color: #0C1844;
+    color: #ffffff;
+    background-color: #000000;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    -webkit-tap-highlight-color: rgb(0, 0, 0)
 }
 
 hr {
@@ -286,7 +286,7 @@ kbd {
     padding: .2rem .4rem;
     font-size: 0.875em;
     color: #fff;
-    background-color: #212529;
+    background-color: #000000;
     border-radius: 0px
 }
 
@@ -610,7 +610,7 @@ progress {
 
 .img-thumbnail {
     padding: .25rem;
-    background-color: #fff;
+    background-color: #ff0000;
     border: 1px solid #dee2e6;
     border-radius: 0px;
     max-width: 100%;
@@ -2146,7 +2146,7 @@ progress {
 }
 
 .table-dark {
-    --bs-table-bg: #0C1844;
+    --bs-table-bg: #0c184400;
     --bs-table-striped-bg: #18244d;
     --bs-table-striped-color: #fff;
     --bs-table-active-bg: #242f57;
@@ -8368,7 +8368,7 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-    background-color: #0c1844 !important
+    background-color: #000000 !important
 }
 
 .bg-body {
