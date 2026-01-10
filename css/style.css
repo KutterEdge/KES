@@ -1273,6 +1273,10 @@
     background-size: cover;
 }
 
+.text-body {
+    color: #ffffff;
+}
+
 .footer button {
     border: none;
     transition: 0.5s;
@@ -1280,7 +1284,7 @@
 
 .footer button:hover {
     background: var(--bs-white);
-    color: var(--bs-dark);
+    color: white;
 }
 
 .footer .footer-item {
@@ -1310,7 +1314,7 @@
     line-height: 35px;
     font-size: 50px;
     font-weight: 500;
-    color: var(--bs-white);
+    color: #ffffff;
     transition: 0.5s;
 }
 
@@ -1335,12 +1339,6 @@
     color: var(--bs-primary);
 }
 /*** Footer End ***/
-
-/*** copyright Start ***/
-.copyright {
-    background-image: url(../img/);
-}
-/*** copyright end ***/
 
 
 
