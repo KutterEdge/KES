@@ -183,7 +183,7 @@
         height: 45px;
         top: 0;
         right: 0;
-        background-color: #000000;
+        background-color:;
         z-index: -1;
     }
 
@@ -207,7 +207,7 @@
 
     .navbar-brand {
         display: none;
-        background-color: #000000;
+        background-color:;
     }
 
     .navbar-brand-2 {
@@ -229,7 +229,7 @@
         height: 600px;
         top: -200px;
         right: 18px;
-        background: var(--bs-dark);
+        background: );
         transform: rotate(-18deg);
         z-index: -1;
     }
@@ -459,7 +459,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-    background-image: url(../img/backgorund12\ Regiment.png);
+    background-image: url(../img/micro\ banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -467,7 +467,7 @@
 
 @media (max-width: 991px) {
     .hero-bg-half-1 {
-        background-image: url(../img/);
+        background-image: url(../img/micro\ banner.png);
         clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
         transform: scale(100% - 0%);
         background-position: center center;
@@ -481,7 +481,7 @@
     }
 
     .hero-bg-half-2 {
-        background-image: url(../img/KES\ logo.png);
+        background-image: url(../img/micro\ banner.png);
         clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
         transform: scale(100% - 0%);
         background-position: center center;
@@ -497,7 +497,7 @@
 
 /*** Carousel Hero Header Start ***/
 .header-carousel .header-carousel-item {
-    height: 700px;
+    height: 280px;
 }
 
 .header-carousel .owl-nav .owl-prev,
