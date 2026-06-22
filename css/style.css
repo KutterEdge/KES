@@ -99,8 +99,8 @@
 }
 
 .btn.btn-primary:hover {
-    background: var(--bs-white);
-    color: var(--bs-dark);
+    background: var(--bs-purple);
+    color: var(--bs-light);
 
 }
 
@@ -459,7 +459,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-    background-image: url(../img/micro\ banner.png);
+    background-image: url(../img/logo1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -467,7 +467,7 @@
 
 @media (max-width: 991px) {
     .hero-bg-half-1 {
-        background-image: url(../img/micro\ banner.png);
+        background-image: url();
         clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
         transform: scale(100% - 0%);
         background-position: center center;
@@ -481,7 +481,7 @@
     }
 
     .hero-bg-half-2 {
-        background-image: url(../img/micro\ banner.png);
+        background-image: url();
         clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
         transform: scale(100% - 0%);
         background-position: center center;
@@ -553,6 +553,17 @@
     }
 }
 /*** Carousel Hero Header End ***/
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Pushes the video behind all other content */
+  object-fit: cover; /* Ensures the video covers the screen without stretching */
+}
+
 
 
 /*** About Start ***/
@@ -796,7 +807,7 @@
 .courses {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), url();
+    background: 
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1108,7 +1119,7 @@
     height: 4px;
     bottom: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     transition: 0.5s;
     z-index: -1;
 }
@@ -1121,7 +1132,7 @@
 
 .team .team-item:hover .team-content::after {
     height: 100%;
-    background: #0105ff;
+    background: #ff0000;
 }
 
 .team .team-item .team-content h4 {
@@ -1129,7 +1140,7 @@
 }
 
 .team .team-item:hover .team-content h4 {
-    color: var(--bs-white);
+    color: #ffffff;
 }
 /*** Team End ***/
 
