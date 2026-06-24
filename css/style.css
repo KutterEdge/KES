@@ -99,13 +99,13 @@
 }
 
 .btn.btn-primary:hover {
-    background: var(--bs-purple);
+    background: var(--bs-blue);
     color: var(--bs-light);
 
 }
 
 .btn.btn-light {
-    color: var(--bs-primary);
+    color: var(--bs-white);
     border: none;
     transform: skew(18deg);
     transition: 0.5s;
@@ -560,8 +560,8 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1; /* Pushes the video behind all other content */
-  object-fit: cover; /* Ensures the video covers the screen without stretching */
+  z-index: -1;
+  object-fit: fill;
 }
 
 
@@ -849,7 +849,7 @@
 }
 
 .courses-item:hover .courses-item-inner .data-info .courses-trainer {
-    color: var(--bs-body);
+    color: var(--bs-white);
 }
 
 .courses-item .courses-item-inner .data-info .courses-date {
@@ -859,7 +859,7 @@
 .courses-item .courses-item-inner .courses-icon-img {
     width: 80px; 
     height: 80px;
-    background: var(--bs-primary);
+    background: var(--bs-light);
     transition: 0.5s;
 }
 
@@ -878,7 +878,7 @@
 }
 
 .courses-item-inner:hover a:hover {
-    color: var(--bs-primary);
+    color: var(--bs-white);
 }
 
 .courses-item-inner::after {
@@ -1132,7 +1132,7 @@
 
 .team .team-item:hover .team-content::after {
     height: 100%;
-    background: #ff0000;
+    background: #0000ff;
 }
 
 .team .team-item .team-content h4 {
@@ -1140,7 +1140,7 @@
 }
 
 .team .team-item:hover .team-content h4 {
-    color: #ffffff;
+    color: #ff0000;
 }
 /*** Team End ***/
 
@@ -1267,7 +1267,8 @@
 }
 
 .text-body {
-    color: #ffffff;
+    color: #ff0000;
+    font: bold;
 }
 
 .footer button {
@@ -1307,8 +1308,7 @@
     line-height: 35px;
     font-size: 50px;
     font-weight: 500;
-    color: #ffffff;
-    transition: 0.5s;
+    color: #ff0000;
 }
 
 .footer .footer-item p {
