@@ -459,7 +459,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-    background-image: url(../img/logo1.gif);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -609,6 +609,7 @@
 
 .about .about-content {
     position: relative;
+    background-color: #0000009d;
     z-index: 9;
 }
 
@@ -807,7 +808,7 @@
 .courses {
     position: relative;
     overflow: hidden;
-    background: 
+    background-color:;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -820,6 +821,7 @@
 
 .courses .courses-item p {
     color: var(--bs-white);
+    background-color: ;
     transition: 0.5s;
 }
 
@@ -831,7 +833,7 @@
     position: relative;
     transform: skew(4deg);
     margin: 0 15px;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.61);
     transition: 0.5s;
 }
 
@@ -889,7 +891,7 @@
     height: 4px;
     bottom: 0;
     left: 0;
-    background: rgba(12, 24, 68, 0.9);
+    background-color: blue;
     transition: 0.5s;
     z-index: -1;
 }
@@ -1105,8 +1107,9 @@
     overflow: hidden;
     text-align: center;
     padding: 25px;
-    border: 1px solid #000000;
+    border: 0px solid #ff000000;
     border-top: none;
+    background-color: blue;
     transform: matrix(1, -0.1, 0, 1, 0, 0);
     transition: 0.5s;
 }
@@ -1132,7 +1135,7 @@
 
 .team .team-item:hover .team-content::after {
     height: 100%;
-    background: #0000ff;
+    background: #000000;
 }
 
 .team .team-item .team-content h4 {
@@ -1260,7 +1263,6 @@
 /*** Footer Start ***/
 .footer {
     overflow: hidden;
-    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), url(../img/);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
