@@ -99,8 +99,8 @@
 }
 
 .btn.btn-primary:hover {
-    background: var(--bs-blue);
-    color: var(--bs-light);
+    background: #000000;
+    color: var(--bs-white);
 
 }
 
